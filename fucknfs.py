@@ -1,0 +1,124 @@
+import os
+import tempfile
+import pandas as pd
+from PIL import Image
+
+import torch
+from torch.nn import CrossEntropyLoss
+from torch.optim import Adam
+from torch.utils.data import Dataset, DataLoader
+from torchvision.models import resnet18
+from torchvision.transforms import ToTensor, Normalize, Compose
+from torch.amp import GradScaler, autocast  # Updated import for mixed precision
+
+import ray
+from ray import train
+from ray.train.torch import TorchTrainer
+
+# Custom dataset class
+class VisionlineDataset(Dataset):
+    def __init__(self, csv_file, root_dir, transform=None):
+        self.labels = pd.read_csv(csv_file)
+        self.root_dir = root_dir
+        self.transform = transform
+
+    def __len__(self):
+        return len(self.labels)
+
+    def __getitem__(self, idx):
+        img_name = os.path.join(self.root_dir, self.labels.iloc[idx, 0])
+        image = Image.open(img_name).convert("RGB")
+        label = 1 if self.labels.iloc[idx, 2] == "OK" else 0
+        if self.transform:
+            image = self.transform(image)
+        return image, label
+
+def train_func():
+    model = resnet18(num_classes=2)
+    # Model preparation for distributed training.
+    model = train.torch.prepare_model(model)
+    criterion = CrossEntropyLoss()
+    optimizer = Adam(model.parameters(), lr=0.001)
+    scaler = GradScaler(device='cuda')  # Initialize GradScaler for mixed precision training
+
+    # Data
+    transform = Compose([ToTensor(), Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))])
+    data_dir = '/srv/nfs/kube-ray/visionline/'
+    labels_csv = '/srv/nfs/kube-ray/labels.csv'
+
+    train_data = VisionlineDataset(csv_file=labels_csv, root_dir=data_dir, transform=transform)
+    train_loader = DataLoader(train_data, batch_size=16, shuffle=True)  # Reduced batch size
+
+    # DataLoader
+    train_loader = train.torch.prepare_data_loader(train_loader)
+
+    # Training
+    for epoch in range(10):
+        if train.get_context().get_world_size() > 1:
+            train_loader.sampler.set_epoch(epoch)
+
+        for images, labels in train_loader:
+            images, labels = images.to('cuda'), labels.to('cuda')
+
+            optimizer.zero_grad()
+
+            with autocast(device_type='cuda'):  # Mixed precision training
+                outputs = model(images)
+                loss = criterion(outputs, labels)
+
+            scaler.scale(loss).backward()
+            scaler.step(optimizer)
+            scaler.update()
+
+            # Clear unused memory
+            torch.cuda.empty_cache()
+
+        # Report metrics and checkpoint
+        metrics = {"loss": loss.item(), "epoch": epoch}
+        with tempfile.TemporaryDirectory() as temp_checkpoint_dir:
+            # Save the model's state_dict depending on whether it's wrapped with DataParallel/DistributedDataParallel
+            model_state_dict = model.module.state_dict() if hasattr(model, 'module') else model.state_dict()
+            torch.save(
+                model_state_dict,
+                os.path.join(temp_checkpoint_dir, "model.pt")
+            )
+            train.report(
+                metrics,
+                checkpoint=train.Checkpoint.from_directory(temp_checkpoint_dir),
+            )
+        if train.get_context().get_world_rank() == 0:
+            print(metrics)
+            
+os.environ['NCCL_DEBUG'] = 'INFO'
+os.environ['NCCL_SOCKET_IFNAME'] = 'eth0'
+
+runtime_env = {
+    "pip": ["torch", "torchvision", "pandas"],
+    "working_dir": "/srv/nfs/kube-ray",
+}
+
+ray.init(
+    runtime_env=runtime_env,
+)
+
+# Scaling config
+scaling_config = train.ScalingConfig(num_workers=2, use_gpu=True)
+
+# Launch distributed training job
+trainer = TorchTrainer(
+    train_func,
+    scaling_config=scaling_config,
+    run_config=train.RunConfig(
+        storage_path="/srv/nfs/kube-ray",
+        name="faps",
+        # failure_config=train.FailureConfig(-1) #for unlimited retries
+    )
+)
+result = trainer.fit()
+
+# Load the trained model
+with result.checkpoint.as_directory() as checkpoint_dir:
+    model_state_dict = torch.load(os.path.join(checkpoint_dir, "model.pt"))
+    model = resnet18(num_classes=2)
+    model.load_state_dict(model_state_dict)
+    
