@@ -14,12 +14,11 @@ from torch.amp import GradScaler, autocast  # Updated import for mixed precision
 import ray
 from ray import train
 from ray.train.torch import TorchTrainer
-from ray.train.config import TorchConfig
 
 # Custom dataset class
 class VisionlineDataset(Dataset):
     def __init__(self, csv_file, root_dir, transform=None):
-        self.labels = ray.data.read_csv(csv_file)
+        self.labels = pd.read_csv(csv_file)
         self.root_dir = root_dir
         self.transform = transform
 
@@ -45,8 +44,7 @@ def train_func():
     # Data
     transform = Compose([ToTensor(), Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))])
     data_dir = '/srv/nfs/kube-ray/visionline/'
-    labels_csv ='/srv/nfs/kube-ray/labels.csv' #'/srv/nfs/kube-ray/labels.csv' this is used for NFS direction
-    
+    labels_csv = '/srv/nfs/kube-ray/labels.csv'
 
     train_data = VisionlineDataset(csv_file=labels_csv, root_dir=data_dir, transform=transform)
     train_loader = DataLoader(train_data, batch_size=16, shuffle=True)  # Reduced batch size
@@ -97,7 +95,6 @@ os.environ['NCCL_SOCKET_IFNAME'] = 'eth0'
 runtime_env = {
     "pip": ["torch", "torchvision", "pandas"],
     "working_dir": "/srv/nfs/kube-ray",
-    #"env_vars": {"NCCL_SOCKET_IFNAME": "ens5"}
 }
 
 ray.init(
@@ -110,7 +107,6 @@ scaling_config = train.ScalingConfig(num_workers=1, use_gpu=True)
 # Launch distributed training job
 trainer = TorchTrainer(
     train_func,
-    #torch_config=TorchConfig(backend="gloo"),
     scaling_config=scaling_config,
     run_config=train.RunConfig(
         storage_path="/srv/nfs/kube-ray",

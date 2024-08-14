@@ -1,118 +1,152 @@
 import os
-import tempfile
-import pandas as pd
-from PIL import Image
+from typing import Dict
 
 import torch
-from torch.nn import CrossEntropyLoss
-from torch.optim import Adam
-from torch.utils.data import Dataset, DataLoader
-from torchvision.models import resnet18
-from torchvision.transforms import ToTensor, Normalize, Compose
-from torch.cuda.amp import GradScaler, autocast
+from filelock import FileLock
+from torch import nn
+from torch.utils.data import DataLoader
+from torchvision import datasets, transforms
+from torchvision.transforms import Normalize, ToTensor
+from tqdm import tqdm
 
-import ray
-from ray import train
+import ray.train
+from ray.train import ScalingConfig
 from ray.train.torch import TorchTrainer
 
-# Custom dataset class
-class VisionlineDataset(Dataset):
-    def __init__(self, csv_file, root_dir, transform=None):
-        self.labels = pd.read_csv(csv_file)
-        self.root_dir = root_dir
-        self.transform = transform
 
-    def __len__(self):
-        return len(self.labels)
+def get_dataloaders(batch_size):
+    # Transform to normalize the input images
+    transform = transforms.Compose([ToTensor(), Normalize((0.5,), (0.5,))])
 
-    def __getitem__(self, idx):
-        img_name = os.path.join(self.root_dir, self.labels.iloc[idx, 0])
-        image = Image.open(img_name).convert("RGB")
-        label = 1 if self.labels.iloc[idx, 2] == "OK" else 0
-        if self.transform:
-            image = self.transform(image)
-        return image, label
+    with FileLock(os.path.expanduser("~/data.lock")):
+        # Download training data from open datasets
+        training_data = datasets.FashionMNIST(
+            root="~/data",
+            train=True,
+            download=True,
+            transform=transform,
+        )
 
-def train_func():
-    model = resnet18(num_classes=2)
-    # Model preparation for distributed training.
-    model = train.torch.prepare_model(model)
-    criterion = CrossEntropyLoss()
-    optimizer = Adam(model.parameters(), lr=0.001)
-    scaler = GradScaler()  # Initialize GradScaler for mixed precision training
+        # Download test data from open datasets
+        test_data = datasets.FashionMNIST(
+            root="~/data",
+            train=False,
+            download=True,
+            transform=transform,
+        )
 
-    # Data
-    transform = Compose([ToTensor(), Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))])
-    data_dir = '/srv/nfs/kube-ray/visionline/'
-    labels_csv = '/srv/nfs/kube-ray/labels.csv'
+    # Create data loaders
+    train_dataloader = DataLoader(training_data, batch_size=batch_size, shuffle=True)
+    test_dataloader = DataLoader(test_data, batch_size=batch_size)
 
-    train_data = VisionlineDataset(csv_file=labels_csv, root_dir=data_dir, transform=transform)
-    train_loader = DataLoader(train_data, batch_size=16, shuffle=True)  # Reduced batch size
+    return train_dataloader, test_dataloader
 
-    # DataLoader
-    train_loader = train.torch.prepare_data_loader(train_loader)
 
-    # Training
-    for epoch in range(10):
-        if train.get_context().get_world_size() > 1:
-            train_loader.sampler.set_epoch(epoch)
+# Model Definition
+class NeuralNetwork(nn.Module):
+    def __init__(self):
+        super(NeuralNetwork, self).__init__()
+        self.flatten = nn.Flatten()
+        self.linear_relu_stack = nn.Sequential(
+            nn.Linear(28 * 28, 512),
+            nn.ReLU(),
+            nn.Dropout(0.25),
+            nn.Linear(512, 512),
+            nn.ReLU(),
+            nn.Dropout(0.25),
+            nn.Linear(512, 10),
+            nn.ReLU(),
+        )
 
-        for images, labels in train_loader:
-            images, labels = images.to('cuda'), labels.to('cuda')
+    def forward(self, x):
+        x = self.flatten(x)
+        logits = self.linear_relu_stack(x)
+        return logits
+
+
+def train_func_per_worker(config: Dict):
+    lr = config["lr"]
+    epochs = config["epochs"]
+    batch_size = config["batch_size_per_worker"]
+
+    # Get dataloaders inside the worker training function
+    train_dataloader, test_dataloader = get_dataloaders(batch_size=batch_size)
+
+    # [1] Prepare Dataloader for distributed training
+    # Shard the datasets among workers and move batches to the correct device
+    # =======================================================================
+    train_dataloader = ray.train.torch.prepare_data_loader(train_dataloader)
+    test_dataloader = ray.train.torch.prepare_data_loader(test_dataloader)
+
+    model = NeuralNetwork()
+
+    # [2] Prepare and wrap your model with DistributedDataParallel
+    # Move the model to the correct GPU/CPU device
+    # ============================================================
+    model = ray.train.torch.prepare_model(model)
+
+    loss_fn = nn.CrossEntropyLoss()
+    optimizer = torch.optim.SGD(model.parameters(), lr=lr, momentum=0.9)
+
+    # Model training loop
+    for epoch in range(epochs):
+        if ray.train.get_context().get_world_size() > 1:
+            # Required for the distributed sampler to shuffle properly across epochs.
+            train_dataloader.sampler.set_epoch(epoch)
+
+        model.train()
+        for X, y in tqdm(train_dataloader, desc=f"Train Epoch {epoch}"):
+            pred = model(X)
+            loss = loss_fn(pred, y)
 
             optimizer.zero_grad()
+            loss.backward()
+            optimizer.step()
 
-            with autocast():  # Mixed precision training
-                outputs = model(images)
-                loss = criterion(outputs, labels)
+        model.eval()
+        test_loss, num_correct, num_total = 0, 0, 0
+        with torch.no_grad():
+            for X, y in tqdm(test_dataloader, desc=f"Test Epoch {epoch}"):
+                pred = model(X)
+                loss = loss_fn(pred, y)
 
-            scaler.scale(loss).backward()
-            scaler.step(optimizer)
-            scaler.update()
+                test_loss += loss.item()
+                num_total += y.shape[0]
+                num_correct += (pred.argmax(1) == y).sum().item()
 
-            # Clear unused memory
-            torch.cuda.empty_cache()
+        test_loss /= len(test_dataloader)
+        accuracy = num_correct / num_total
 
-        # Report metrics and checkpoint
-        metrics = {"loss": loss.item(), "epoch": epoch}
-        with tempfile.TemporaryDirectory() as temp_checkpoint_dir:
-            torch.save(
-                model.module.state_dict(),
-                os.path.join(temp_checkpoint_dir, "model.pt")
-            )
-            train.report(
-                metrics,
-                checkpoint=train.Checkpoint.from_directory(temp_checkpoint_dir),
-            )
-        if train.get_context().get_world_rank() == 0:
-            print(metrics)
+        # [3] Report metrics to Ray Train
+        # ===============================
+        ray.train.report(metrics={"loss": test_loss, "accuracy": accuracy})
 
-runtime_env = {
-    "pip": ["torch", "torchvision", "pandas"],
-    "working_dir": "/srv/nfs/kube-ray",
-}
 
-ray.init(
-    runtime_env=runtime_env,
-)
+def train_fashion_mnist(num_workers=2, use_gpu=False):
+    global_batch_size = 32
 
-# Scaling config
-scaling_config = train.ScalingConfig(num_workers=1, use_gpu=True)
+    train_config = {
+        "lr": 1e-3,
+        "epochs": 10,
+        "batch_size_per_worker": global_batch_size // num_workers,
+    }
 
-# Launch distributed training job
-trainer = TorchTrainer(
-    train_func,
-    scaling_config=scaling_config,
-    run_config=train.RunConfig(
-        storage_path="/srv/nfs/kube-ray",
-        name="faps",
-        # failure_config=train.FailureConfig(-1) #for unlimited retries
+    # Configure computation resources
+    scaling_config = ScalingConfig(num_workers=num_workers, use_gpu=use_gpu)
+
+    # Initialize a Ray TorchTrainer
+    trainer = TorchTrainer(
+        train_loop_per_worker=train_func_per_worker,
+        train_loop_config=train_config,
+        scaling_config=scaling_config,
     )
-)
-result = trainer.fit()
 
-# Load the trained model
-with result.checkpoint.as_directory() as checkpoint_dir:
-    model_state_dict = torch.load(os.path.join(checkpoint_dir, "model.pt"))
-    model = resnet18(num_classes=2)
-    model.load_state_dict(model_state_dict)
+    # [4] Start distributed training
+    # Run `train_func_per_worker` on all workers
+    # =============================================
+    result = trainer.fit()
+    print(f"Training result: {result}")
+
+
+if __name__ == "__main__":
+    train_fashion_mnist(num_workers=2, use_gpu=True)
