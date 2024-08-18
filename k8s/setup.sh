@@ -2,7 +2,7 @@
 
 namespace="kube-ray"
 service_account="kuberay-service-account"
-ray_cluster_value_path="kuube-ray/ray-cluster-values.yaml"
+ray_cluster_value_path="kube-ray/ray-cluster-values.yaml"
 
 install_nvidia_device_plugin() {
 
@@ -65,7 +65,10 @@ create_kube_ray_operator() {
 
     # Create the ray-operator
     helm repo add kuberay https://ray-project.github.io/kuberay-helm/
-    helm install kuberay kuberay/kuberay-operator --namespace $namespace    
+    helm repo update
+    sleep 3
+    helm install kuberay-operator kuberay/kuberay-operator --version 1.1.1 --namespace $namespace 
+    sleep 3
 }
 
 create_ray_cluster() {
@@ -78,8 +81,8 @@ create_ray_cluster() {
         return
     else
         echo "Creating Ray cluster."
-        helm install ray-cluster kuberay/ray-cluster -f $ray_cluster_value_path --namespace $namespace
-
+        helm install raycluster kuberay/ray-cluster -f $ray_cluster_value_path --namespace $namespace
+        sleep 3
         # Get the ray cluster status
         kubectl get raycluster -n $namespace
     fi
@@ -123,17 +126,26 @@ delete_kube_ray_operator_and_cluster() {
     fi
 }
 
-################################################################################
-# Call the function to install the NVIDIA device plugin for k8s
-################################################################################
-install_nvidia_device_plugin
 
-################################################################################
-# Call the function to create the ray operator in the specified namespace
-################################################################################
-create_kube_ray_operator
 
-################################################################################
-# Call the function to create the ray cluster in the specified namespace
-################################################################################
-create_ray_cluster
+
+if [ "$1" == "nvidia" ]; then
+
+    install_nvidia_device_plugin
+
+elif [ "$1" == "create" ]; then
+
+    create_kube_ray_operator
+    create_ray_cluster
+
+elif [ "$1" == "cluster-update" ]; then
+
+    upgrade_ray_cluster
+
+elif [ "$1" == "destroy" ]; then
+
+    delete_kube_ray_operator_and_cluster
+
+else
+    echo "Usage: $0 {create [--static]|destroy|list|list-ips}"
+fi

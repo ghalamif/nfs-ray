@@ -44,12 +44,14 @@ def get_dataloaders(batch_size):
     return train_loader
 
 # Training function with improved progress and metric reporting
+
 def train_func_per_worker(config: Dict):
     lr = config["lr"]
     epochs = config["epochs"]
     batch_size = config["batch_size_per_worker"]
 
     # Prepare Dataloader for distributed training
+    train_data_shard = train.get_dataset_shard("train")
     train_dataloader = get_dataloaders(batch_size=batch_size)
     train_loader = ray.train.torch.prepare_data_loader(train_dataloader)
 
@@ -131,14 +133,14 @@ if __name__ == "__main__":
         #"NCCL_SOCKET_IFNAME": "ens5"
     }
 
-    runtime_env = {
-    "pip": ["torch", "torchvision", "pandas"],
-    "working_dir": "/srv/nfs/kube-ray",
-    "env_vars": env_vars
-    }
+    #runtime_env = ray.runtime_env.RuntimeEnv(
+        #pip=["pandas","torch","torchvision","ray[default]"],
+        #env_vars={"TORCH_NCCL_ASYNC_ERROR_HANDLING": "1"},
+        #working_dir="/srv/nfs/kube-ray"
+    #)
 
-    ray.init(
-    runtime_env=runtime_env,
-    )
+    #ray.init(
+    #runtime_env=runtime_env,
+    #)
 
-    train(num_workers=1, use_gpu=True)
+    train(num_workers=2, use_gpu=True)
