@@ -11,4 +11,18 @@ spec:
     path: /srv/nfs/kube-ray
     server: 192.168.209.37
   persistentVolumeReclaimPolicy: Retain
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: nfs-pvc
+  namespace: kube-ray
+spec:
+  accessModes:
+    - ReadWriteMany
+  resources:
+    requests:
+      storage: 10Gi
+  storageClassName: ""
+  volumeName: nfs-pv
 

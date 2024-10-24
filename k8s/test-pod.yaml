@@ -9,7 +9,7 @@ spec:
       image: busybox
       command: [ "sh", "-c", "sleep 3600" ]
       volumeMounts:
-        - mountPath: "/mnt/nfs"
+        - mountPath: /srv/nfs/kube-ray
           name: nfs-volume
       resources:
         requests:
@@ -22,3 +22,4 @@ spec:
     - name: nfs-volume
       persistentVolumeClaim:
         claimName: nfs-pvc
+

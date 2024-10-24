@@ -3,6 +3,8 @@
 namespace="kube-ray"
 service_account="kuberay-service-account"
 ray_cluster_value_path="kube-ray/ray-cluster-values.yaml"
+manual=0
+manual_cluster_path="k8s/kube-ray/ray-cluster.yaml"
 
 install_nvidia_device_plugin() {
 
@@ -81,6 +83,11 @@ create_ray_cluster() {
         return
     else
         echo "Creating Ray cluster."
+        if [ manual==1 ]; then
+            kubectl apply -f $manual_cluster_path
+        else
+            helm install raycluster kuberay/ray-cluster -f $ray_cluster_value_path --namespace $namespace
+        fi
         helm install raycluster kuberay/ray-cluster -f $ray_cluster_value_path --namespace $namespace
         sleep 3
         # Get the ray cluster status
@@ -134,9 +141,13 @@ if [ "$1" == "nvidia" ]; then
     install_nvidia_device_plugin
 
 elif [ "$1" == "create" ]; then
-
+    if [ "$2" == "man" ]; then
+        manual=1
+    fi
+    manual=0
     create_kube_ray_operator
     create_ray_cluster
+    
 
 elif [ "$1" == "cluster-update" ]; then
 

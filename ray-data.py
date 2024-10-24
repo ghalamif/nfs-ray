@@ -18,6 +18,10 @@ import ray
 from ray import train
 from ray.train.torch import TorchTrainer, prepare_model, prepare_data_loader
 from ray.train import report
+from ray.train import FailureConfig
+
+import logging
+logging.basicConfig(level=logging.DEBUG)
 
 # Load data function with file locking for safe downloads
 def load_data(csv_file, root_dir, transform):
@@ -33,6 +37,7 @@ def load_data(csv_file, root_dir, transform):
             data.append((image, label))
     return data
 
+
 def get_dataloaders(batch_size):
     transform = torchvision.transforms.Compose([ToTensor(), Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))])
     data_dir = '/srv/nfs/kube-ray/visionline/'
@@ -46,12 +51,13 @@ def get_dataloaders(batch_size):
 # Training function with improved progress and metric reporting
 
 def train_func_per_worker(config: Dict):
+    device ='cpu' #"cuda" if torch.cuda.is_available() else "cpu"
     lr = config["lr"]
     epochs = config["epochs"]
     batch_size = config["batch_size_per_worker"]
 
     # Prepare Dataloader for distributed training
-    train_data_shard = train.get_dataset_shard("train")
+    #train_data_shard = train.get_dataset_shard("train")
     train_dataloader = get_dataloaders(batch_size=batch_size)
     train_loader = ray.train.torch.prepare_data_loader(train_dataloader)
 
@@ -63,7 +69,7 @@ def train_func_per_worker(config: Dict):
 
     loss_function = nn.CrossEntropyLoss()
     optimizer = Adam(model.parameters(), lr)
-    scaler = GradScaler(device='cuda')
+    scaler = GradScaler(device=device)
 
     for epoch in range(epochs):
         # Setting the epoch for distributed training
@@ -75,11 +81,11 @@ def train_func_per_worker(config: Dict):
         total_loss = 0
         total_samples = 0
         for images, labels in train_loader:
-            images, labels = images.to('cuda'), labels.to('cuda')
+            images, labels = images.to(device), labels.to(device)
 
             optimizer.zero_grad()
 
-            with autocast(device_type='cuda'):
+            with autocast(device_type=device):
                 outputs = model(images)
                 loss = loss_function(outputs, labels)
 
@@ -91,7 +97,8 @@ def train_func_per_worker(config: Dict):
             total_samples += images.size(0)
 
             # Clear unused memory
-            torch.cuda.empty_cache()
+            if device == "cuda":
+                torch.cuda.empty_cache()
 
         avg_loss = total_loss / total_samples
         metrics = {"loss": loss.item(), "avg_loss": avg_loss, "epoch": epoch}
@@ -105,7 +112,7 @@ def train_func_per_worker(config: Dict):
 
 def train(num_workers, use_gpu):
 
-    total_batch_size = 16
+    total_batch_size = 8
     train_config = {
         "lr": 1e-3,
         "epochs": 10,
@@ -113,7 +120,9 @@ def train(num_workers, use_gpu):
     }
 
     # Scaling config for training
-    scaling_config = ray.train.ScalingConfig(num_workers=num_workers, use_gpu=use_gpu)
+    scaling_config = ray.train.ScalingConfig(
+        num_workers=num_workers,
+        use_gpu=use_gpu,)
     
     # Launch distributed training job
     trainer = TorchTrainer(
@@ -131,6 +140,7 @@ if __name__ == "__main__":
     env_vars = {
         "TORCH_NCCL_ASYNC_ERROR_HANDLING": "1",
         #"NCCL_SOCKET_IFNAME": "ens5"
+        "NCCL_DEBUG":"INFO",
     }
 
     #runtime_env = ray.runtime_env.RuntimeEnv(
@@ -143,4 +153,26 @@ if __name__ == "__main__":
     #runtime_env=runtime_env,
     #)
 
-    train(num_workers=2, use_gpu=True)
+    #ray.init(address="ray://127.0.0.1:8083")
+    #ray.init(address='auto' ,runtime_env=env_vars)
+    ray.init(runtime_env=env_vars)
+    print("Ray initialized with", ray.get_runtime_context())
+    print("Ray version:", ray.__version__)
+    print("Torch version:", torch.__version__)
+    print("Torchvision version:", torchvision.__version__)
+    print("CUDA available:", torch.cuda.is_available())
+    print("CUDA device count:", torch.cuda.device_count())
+    print("CUDA device name:", torch.cuda.get_device_name)
+    print("CUDA version:", torch.version.cuda)
+    print("CUDNN version:", torch.backends.cudnn.version())
+    print("NCCL version:", torch.cuda.nccl.version())
+    print("NCCL socket interface:", os.environ.get("NCCL_SOCKET_IFNAME"))
+    print("NCCL async error handling:", os.environ.get("TORCH_NCCL_ASYNC_ERROR_HANDLING"))
+    print("Working directory:", os.getcwd())
+    print(ray.cluster_resources())
+    print("PyTorch sees GPUs:", torch.cuda.device_count())
+    print("Ray sees GPUs:", ray.cluster_resources().get('GPU', 0))
+
+   
+
+    train(num_workers=1, use_gpu=True)
