@@ -2,3 +2,7 @@ visionline/
 faps
 storage/
 jammy-server-cloudimg-amd64.img
+serve/
+__pycache__/
+.gradio/
+flagged/

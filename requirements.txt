@@ -1,0 +1,11 @@
+ray
+ray[data]
+ray[train]
+ray[tune]
+ray[serve]
+torch
+torchvision
+torchmetrics
+numpy
+pandas
+gradio==3.50.2
