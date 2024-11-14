@@ -9,3 +9,5 @@ torchmetrics
 numpy
 pandas
 gradio==3.50.2
+daskdask[dataframe]
+pyspark

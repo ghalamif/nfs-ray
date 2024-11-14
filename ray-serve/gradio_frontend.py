@@ -69,4 +69,5 @@ interface = gr.Interface(
 )
 
 # Start Gradio independently
-interface.launch(server_name="0.0.0.0", share=False)
+#interface.launch(server_name="0.0.0.0", share=False)
+interface.launch(server_name="0.0.0.0", share=False, allowed_paths=["/srv/nfs/kube-ray/visionline"])

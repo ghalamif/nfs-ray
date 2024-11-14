@@ -6,3 +6,7 @@ serve/
 __pycache__/
 .gradio/
 flagged/
+benchmark/Annotation/
+benchmark/Images/
+benchmark/annotation.tar
+benchmark/images.tar
