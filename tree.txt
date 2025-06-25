@@ -1,0 +1,3470 @@
+/home/farzangh/ray_results/
+├── objective_2024-06-24_22-33-20
+│   ├── basic-variant-state-2024-06-24_22-33-23.json
+│   ├── experiment_state-2024-06-24_22-33-23.json
+│   ├── objective_001ae_00000_0_a=0.0010,b=3_2024-06-24_22-33-23
+│   │   ├── events.out.tfevents.1719261203.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── objective_001ae_00001_1_a=0.0100,b=2_2024-06-24_22-33-23
+│   │   ├── events.out.tfevents.1719261203.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── objective_001ae_00002_2_a=0.1000,b=3_2024-06-24_22-33-23
+│   │   ├── events.out.tfevents.1719261203.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── objective_001ae_00003_3_a=1.0000,b=1_2024-06-24_22-33-23
+│   │   ├── events.out.tfevents.1719261203.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   └── tuner.pkl
+├── objective_2024-06-24_23-21-59
+│   ├── basic-variant-state-2024-06-24_23-22-02.json
+│   ├── experiment_state-2024-06-24_23-22-02.json
+│   ├── objective_cc0ff_00000_0_a=0.0010,b=2_2024-06-24_23-22-02
+│   │   ├── events.out.tfevents.1719264123.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── objective_cc0ff_00001_1_a=0.0100,b=1_2024-06-24_23-22-02
+│   │   ├── events.out.tfevents.1719264122.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── objective_cc0ff_00002_2_a=0.1000,b=1_2024-06-24_23-22-02
+│   │   ├── events.out.tfevents.1719264123.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── objective_cc0ff_00003_3_a=1.0000,b=3_2024-06-24_23-22-02
+│   │   ├── events.out.tfevents.1719264122.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   └── tuner.pkl
+├── objective_2024-06-25_15-41-14
+│   ├── basic-variant-state-2024-06-25_15-41-17.json
+│   ├── experiment_state-2024-06-25_15-41-17.json
+│   ├── objective_98a3b_00000_0_a=0.0010,b=3_2024-06-25_15-41-17
+│   │   ├── events.out.tfevents.1719322877.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── objective_98a3b_00001_1_a=0.0100,b=3_2024-06-25_15-41-17
+│   │   ├── events.out.tfevents.1719322877.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── objective_98a3b_00002_2_a=0.1000,b=1_2024-06-25_15-41-17
+│   │   ├── events.out.tfevents.1719322877.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── objective_98a3b_00003_3_a=1.0000,b=2_2024-06-25_15-41-17
+│   │   ├── events.out.tfevents.1719322877.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   └── tuner.pkl
+├── objective_2024-06-25_15-41-44
+│   ├── basic-variant-state-2024-06-25_15-41-47.json
+│   ├── experiment_state-2024-06-25_15-41-47.json
+│   ├── objective_aa89d_00000_0_a=0.0010,b=2_2024-06-25_15-41-47
+│   │   ├── events.out.tfevents.1719322907.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── objective_aa89d_00001_1_a=0.0100,b=2_2024-06-25_15-41-47
+│   │   ├── events.out.tfevents.1719322907.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── objective_aa89d_00002_2_a=0.1000,b=1_2024-06-25_15-41-47
+│   │   ├── events.out.tfevents.1719322907.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── objective_aa89d_00003_3_a=1.0000,b=1_2024-06-25_15-41-47
+│   │   ├── events.out.tfevents.1719322907.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   └── tuner.pkl
+├── objective_2024-06-25_15-42-05
+│   ├── basic-variant-state-2024-06-25_15-42-07.json
+│   ├── experiment_state-2024-06-25_15-42-07.json
+│   ├── objective_b6b2d_00000_0_a=0.0010,b=2_2024-06-25_15-42-07
+│   │   ├── events.out.tfevents.1719322928.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── objective_b6b2d_00001_1_a=0.0100,b=2_2024-06-25_15-42-07
+│   │   ├── events.out.tfevents.1719322928.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── objective_b6b2d_00002_2_a=0.1000,b=3_2024-06-25_15-42-07
+│   │   ├── events.out.tfevents.1719322928.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── objective_b6b2d_00003_3_a=1.0000,b=2_2024-06-25_15-42-07
+│   │   ├── events.out.tfevents.1719322928.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   └── tuner.pkl
+├── rayTuneTrain_2024-06-22_16-37-53
+│   ├── basic-variant-state-2024-06-22_16-37-53.json
+│   ├── experiment_state-2024-06-22_16-37-53.json
+│   ├── rayTuneTrain_0222e_00000_0_lr=0.0010_2024-06-22_16-37-53
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1719067074.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── rayTuneTrain_0222e_00001_1_lr=0.0001_2024-06-22_16-37-53
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1719067074.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   └── rayTuneTrain_0222e_00002_2_lr=0.0000_2024-06-22_16-37-53
+│       ├── error.pkl
+│       ├── error.txt
+│       ├── events.out.tfevents.1719067076.turing
+│       ├── params.json
+│       ├── params.pkl
+│       └── result.json
+├── rayTuneTrain_2024-06-22_16-39-57
+│   ├── basic-variant-state-2024-06-22_16-39-57.json
+│   ├── experiment_state-2024-06-22_16-39-57.json
+│   ├── rayTuneTrain_4c424_00000_0_lr=0.0010_2024-06-22_16-39-57
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1719067199.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── rayTuneTrain_4c424_00001_1_lr=0.0001_2024-06-22_16-39-57
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1719067199.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   └── rayTuneTrain_4c424_00002_2_lr=0.0000_2024-06-22_16-39-57
+│       ├── error.pkl
+│       ├── error.txt
+│       ├── events.out.tfevents.1719067201.turing
+│       ├── params.json
+│       ├── params.pkl
+│       └── result.json
+├── rayTuneTrain_2024-06-22_16-40-32
+│   ├── basic-variant-state-2024-06-22_16-40-32.json
+│   ├── experiment_state-2024-06-22_16-40-32.json
+│   ├── rayTuneTrain_60d18_00000_0_lr=0.0010_2024-06-22_16-40-32
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1719067233.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── rayTuneTrain_60d18_00001_1_lr=0.0001_2024-06-22_16-40-32
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1719067233.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   └── rayTuneTrain_60d18_00002_2_lr=0.0000_2024-06-22_16-40-32
+│       ├── error.pkl
+│       ├── error.txt
+│       ├── events.out.tfevents.1719067233.turing
+│       ├── params.json
+│       ├── params.pkl
+│       └── result.json
+├── rayTuneTrain_2024-06-22_16-41-05
+│   ├── basic-variant-state-2024-06-22_16-41-05.json
+│   ├── experiment_state-2024-06-22_16-41-05.json
+│   ├── rayTuneTrain_74cd9_00000_0_lr=0.0010_2024-06-22_16-41-05
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1719067267.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── rayTuneTrain_74cd9_00001_1_lr=0.0001_2024-06-22_16-41-05
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1719067267.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   └── rayTuneTrain_74cd9_00002_2_lr=0.0000_2024-06-22_16-41-05
+│       ├── error.pkl
+│       ├── error.txt
+│       ├── events.out.tfevents.1719067267.turing
+│       ├── params.json
+│       ├── params.pkl
+│       └── result.json
+├── rayTuneTrain_2024-06-22_21-13-21
+│   ├── basic-variant-state-2024-06-22_21-13-21.json
+│   ├── experiment_state-2024-06-22_21-13-21.json
+│   ├── rayTuneTrain_7d98b_00000_0_lr=0.0010_2024-06-22_21-13-21
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1719083603.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── rayTuneTrain_7d98b_00001_1_lr=0.0001_2024-06-22_21-13-21
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1719083602.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   └── rayTuneTrain_7d98b_00002_2_lr=0.0000_2024-06-22_21-13-21
+│       ├── error.pkl
+│       ├── error.txt
+│       ├── events.out.tfevents.1719083602.turing
+│       ├── params.json
+│       ├── params.pkl
+│       └── result.json
+├── rayTuneTrain_2024-06-22_21-14-51
+│   ├── basic-variant-state-2024-06-22_21-14-51.json
+│   ├── experiment_state-2024-06-22_21-14-51.json
+│   ├── rayTuneTrain_b378a_00000_0_lr=0.0010_2024-06-22_21-14-51
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1719083693.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── rayTuneTrain_b378a_00001_1_lr=0.0001_2024-06-22_21-14-51
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1719083693.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   └── rayTuneTrain_b378a_00002_2_lr=0.0000_2024-06-22_21-14-51
+│       ├── error.pkl
+│       ├── error.txt
+│       ├── events.out.tfevents.1719083693.turing
+│       ├── params.json
+│       ├── params.pkl
+│       └── result.json
+├── rayTuneTrain_2024-06-22_21-18-20
+│   ├── basic-variant-state-2024-06-22_21-18-20.json
+│   ├── experiment_state-2024-06-22_21-18-20.json
+│   ├── rayTuneTrain_2fda8_00000_0_lr=0.0010_2024-06-22_21-18-20
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1719083902.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── rayTuneTrain_2fda8_00001_1_lr=0.0001_2024-06-22_21-18-20
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1719083902.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   └── rayTuneTrain_2fda8_00002_2_lr=0.0000_2024-06-22_21-18-20
+│       ├── error.pkl
+│       ├── error.txt
+│       ├── events.out.tfevents.1719083902.turing
+│       ├── params.json
+│       ├── params.pkl
+│       └── result.json
+├── rayTuneTrain_2024-06-22_21-20-56
+│   ├── basic-variant-state-2024-06-22_21-20-56.json
+│   ├── experiment_state-2024-06-22_21-20-56.json
+│   ├── rayTuneTrain_8ca35_00000_0_lr=0.0010_2024-06-22_21-20-56
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1719084057.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── rayTuneTrain_8ca35_00001_1_lr=0.0001_2024-06-22_21-20-56
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1719084057.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   └── rayTuneTrain_8ca35_00002_2_lr=0.0000_2024-06-22_21-20-56
+│       ├── error.pkl
+│       ├── error.txt
+│       ├── events.out.tfevents.1719084057.turing
+│       ├── params.json
+│       ├── params.pkl
+│       └── result.json
+├── rayTuneTrain_2024-06-22_21-22-12
+│   ├── basic-variant-state-2024-06-22_21-22-12.json
+│   ├── experiment_state-2024-06-22_21-22-12.json
+│   ├── rayTuneTrain_b9e80_00000_0_lr=0.0010_2024-06-22_21-22-12
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1719084133.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── rayTuneTrain_b9e80_00001_1_lr=0.0001_2024-06-22_21-22-12
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1719084133.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   └── rayTuneTrain_b9e80_00002_2_lr=0.0000_2024-06-22_21-22-12
+│       ├── error.pkl
+│       ├── error.txt
+│       ├── events.out.tfevents.1719084133.turing
+│       ├── params.json
+│       ├── params.pkl
+│       └── result.json
+├── rayTuneTrain_2024-06-22_21-25-09
+│   ├── basic-variant-state-2024-06-22_21-25-09.json
+│   ├── experiment_state-2024-06-22_21-25-09.json
+│   ├── rayTuneTrain_235a5_00000_0_lr=0.0010_2024-06-22_21-25-09
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1719084310.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── rayTuneTrain_235a5_00001_1_lr=0.0001_2024-06-22_21-25-09
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1719084310.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   └── rayTuneTrain_235a5_00002_2_lr=0.0000_2024-06-22_21-25-09
+│       ├── error.pkl
+│       ├── error.txt
+│       ├── events.out.tfevents.1719084310.turing
+│       ├── params.json
+│       ├── params.pkl
+│       └── result.json
+├── rayTuneTrain_2024-06-22_21-26-49
+│   ├── basic-variant-state-2024-06-22_21-26-49.json
+│   ├── experiment_state-2024-06-22_21-26-49.json
+│   ├── rayTuneTrain_5f468_00000_0_lr=0.0010_2024-06-22_21-26-49
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1719084411.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── rayTuneTrain_5f468_00001_1_lr=0.0001_2024-06-22_21-26-49
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1719084411.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   └── rayTuneTrain_5f468_00002_2_lr=0.0000_2024-06-22_21-26-49
+│       ├── error.pkl
+│       ├── error.txt
+│       ├── events.out.tfevents.1719084411.turing
+│       ├── params.json
+│       ├── params.pkl
+│       └── result.json
+├── rayTuneTrain_2024-06-22_21-29-03
+│   ├── basic-variant-state-2024-06-22_21-29-03.json
+│   ├── experiment_state-2024-06-22_21-29-03.json
+│   ├── rayTuneTrain_af234_00000_0_lr=0.0010_2024-06-22_21-29-03
+│   │   ├── events.out.tfevents.1719084545.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── rayTuneTrain_af234_00001_1_lr=0.0001_2024-06-22_21-29-03
+│   │   ├── events.out.tfevents.1719084545.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   └── rayTuneTrain_af234_00002_2_lr=0.0000_2024-06-22_21-29-03
+│       ├── events.out.tfevents.1719084545.turing
+│       ├── params.json
+│       ├── params.pkl
+│       └── result.json
+├── rayTuneTrain_2024-06-22_21-29-54
+│   ├── basic-variant-state-2024-06-22_21-29-54.json
+│   ├── experiment_state-2024-06-22_21-29-54.json
+│   ├── rayTuneTrain_cd6e9_00000_0_lr=0.0010_2024-06-22_21-29-54
+│   │   ├── events.out.tfevents.1719084595.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── rayTuneTrain_cd6e9_00001_1_lr=0.0001_2024-06-22_21-29-54
+│   │   ├── events.out.tfevents.1719084595.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   └── rayTuneTrain_cd6e9_00002_2_lr=0.0000_2024-06-22_21-29-54
+│       ├── events.out.tfevents.1719084595.turing
+│       ├── params.json
+│       ├── params.pkl
+│       └── result.json
+├── rayTuneTrain_2024-06-22_21-37-24
+│   ├── basic-variant-state-2024-06-22_21-37-24.json
+│   ├── experiment_state-2024-06-22_21-37-24.json
+│   ├── rayTuneTrain_d98a2_00000_0_lr=0.0010_2024-06-22_21-37-24
+│   │   ├── events.out.tfevents.1719085045.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── rayTuneTrain_d98a2_00001_1_lr=0.0001_2024-06-22_21-37-24
+│   │   ├── events.out.tfevents.1719085045.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   └── rayTuneTrain_d98a2_00002_2_lr=0.0000_2024-06-22_21-37-24
+│       ├── events.out.tfevents.1719085045.turing
+│       ├── params.json
+│       ├── params.pkl
+│       └── result.json
+├── rayTuneTrain_2024-06-22_21-50-30
+│   ├── basic-variant-state-2024-06-22_21-50-30.json
+│   ├── experiment_state-2024-06-22_21-50-30.json
+│   ├── rayTuneTrain_ae382_00000_0_lr=0.0010_2024-06-22_21-50-30
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1719085832.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── rayTuneTrain_ae382_00001_1_lr=0.0001_2024-06-22_21-50-30
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1719085832.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   └── rayTuneTrain_ae382_00002_2_lr=0.0000_2024-06-22_21-50-30
+│       ├── error.pkl
+│       ├── error.txt
+│       ├── events.out.tfevents.1719085834.turing
+│       ├── params.json
+│       ├── params.pkl
+│       └── result.json
+├── rayTuneTrain_2024-06-22_21-51-10
+│   ├── basic-variant-state-2024-06-22_21-51-10.json
+│   ├── experiment_state-2024-06-22_21-51-10.json
+│   ├── rayTuneTrain_c5bf0_00000_0_lr=0.0010_2024-06-22_21-51-10
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1719085871.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── rayTuneTrain_c5bf0_00001_1_lr=0.0001_2024-06-22_21-51-10
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1719085871.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   └── rayTuneTrain_c5bf0_00002_2_lr=0.0000_2024-06-22_21-51-10
+│       ├── error.pkl
+│       ├── error.txt
+│       ├── events.out.tfevents.1719085873.turing
+│       ├── params.json
+│       ├── params.pkl
+│       └── result.json
+├── rayTuneTrain_2024-06-22_21-51-39
+│   ├── basic-variant-state-2024-06-22_21-51-39.json
+│   ├── experiment_state-2024-06-22_21-51-39.json
+│   ├── rayTuneTrain_d783b_00000_0_lr=0.0010_2024-06-22_21-51-39
+│   │   ├── events.out.tfevents.1719085901.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── rayTuneTrain_d783b_00001_1_lr=0.0001_2024-06-22_21-51-39
+│   │   ├── events.out.tfevents.1719085901.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   └── rayTuneTrain_d783b_00002_2_lr=0.0000_2024-06-22_21-51-39
+│       ├── events.out.tfevents.1719085901.turing
+│       ├── params.json
+│       ├── params.pkl
+│       └── result.json
+├── rayTuneTrain_2024-06-22_21-54-23
+│   ├── basic-variant-state-2024-06-22_21-54-23.json
+│   ├── experiment_state-2024-06-22_21-54-23.json
+│   ├── rayTuneTrain_3915a_00000_0_lr=0.0010_2024-06-22_21-54-23
+│   │   ├── events.out.tfevents.1719086065.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── rayTuneTrain_3915a_00001_1_lr=0.0001_2024-06-22_21-54-23
+│   │   ├── events.out.tfevents.1719086065.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   └── rayTuneTrain_3915a_00002_2_lr=0.0000_2024-06-22_21-54-23
+│       ├── events.out.tfevents.1719086065.turing
+│       ├── params.json
+│       ├── params.pkl
+│       └── result.json
+├── rayTuneTrain_2024-06-22_21-55-46
+│   ├── basic-variant-state-2024-06-22_21-55-46.json
+│   ├── experiment_state-2024-06-22_21-55-46.json
+│   ├── rayTuneTrain_6aa4f_00000_0_lr=0.0010_2024-06-22_21-55-46
+│   │   ├── events.out.tfevents.1719086148.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── rayTuneTrain_6aa4f_00001_1_lr=0.0001_2024-06-22_21-55-46
+│   │   ├── events.out.tfevents.1719086148.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   └── rayTuneTrain_6aa4f_00002_2_lr=0.0000_2024-06-22_21-55-46
+│       ├── events.out.tfevents.1719086148.turing
+│       ├── params.json
+│       ├── params.pkl
+│       └── result.json
+├── rayTuneTrain_2024-06-22_22-18-28
+│   ├── basic-variant-state-2024-06-22_22-18-28.json
+│   ├── experiment_state-2024-06-22_22-18-28.json
+│   ├── rayTuneTrain_9689a_00000_0_lr=0.0010_2024-06-22_22-18-28
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1719087510.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── rayTuneTrain_9689a_00001_1_lr=0.0001_2024-06-22_22-18-28
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1719087510.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   └── rayTuneTrain_9689a_00002_2_lr=0.0000_2024-06-22_22-18-28
+│       ├── error.pkl
+│       ├── error.txt
+│       ├── events.out.tfevents.1719087510.turing
+│       ├── params.json
+│       ├── params.pkl
+│       └── result.json
+├── rayTuneTrain_2024-06-22_22-47-46
+│   ├── basic-variant-state-2024-06-22_22-47-46.json
+│   ├── experiment_state-2024-06-22_22-47-46.json
+│   ├── rayTuneTrain_ae21e_00000_0_lr=0.0010_2024-06-22_22-47-46
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1719089267.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   └── rayTuneTrain_ae21e_00001_1_lr=0.0001_2024-06-22_22-47-46
+│       ├── error.pkl
+│       ├── error.txt
+│       ├── events.out.tfevents.1719089267.turing
+│       ├── params.json
+│       ├── params.pkl
+│       └── result.json
+├── rayTuneTrain_2024-06-24_22-43-29
+│   ├── basic-variant-state-2024-06-24_22-43-31.json
+│   ├── experiment_state-2024-06-24_22-43-31.json
+│   ├── rayTuneTrain_6afd6_00000_0_lr=0.0010_2024-06-24_22-43-31
+│   │   ├── events.out.tfevents.1719261812.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── rayTuneTrain_6afd6_00001_1_lr=0.0001_2024-06-24_22-43-31
+│   │   ├── events.out.tfevents.1719261812.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   └── tuner.pkl
+├── rayTuneTrain_2024-06-25_14-45-02
+│   ├── basic-variant-state-2024-06-25_14-45-04.json
+│   ├── experiment_state-2024-06-25_14-45-04.json
+│   ├── rayTuneTrain_beb65_00000_0_lr=0.0010_2024-06-25_14-45-04
+│   │   ├── events.out.tfevents.1719319505.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── rayTuneTrain_beb65_00001_1_lr=0.0001_2024-06-25_14-45-04
+│   │   ├── events.out.tfevents.1719319505.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   └── tuner.pkl
+├── rayTuneTrain_2024-06-25_16-49-41
+│   ├── basic-variant-state-2024-06-25_16-49-43.json
+│   ├── experiment_state-2024-06-25_16-49-43.json
+│   ├── rayTuneTrain_2873d_00000_0_lr=0.0010_2024-06-25_16-49-43
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1719326984.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── rayTuneTrain_2873d_00001_1_lr=0.0001_2024-06-25_16-49-43
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1719326984.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   └── tuner.pkl
+├── rayTuneTrain_2024-06-25_17-30-47
+│   └── tuner.pkl
+├── rayTuneTrain_2024-06-25_17-31-26
+│   └── tuner.pkl
+├── rayTuneTrain_2024-06-25_17-32-49
+│   ├── basic-variant-state-2024-06-25_17-32-49.json
+│   ├── experiment_state-2024-06-25_17-32-49.json
+│   ├── rayTuneTrain_2e087_00000_0_lr=0.0010_2024-06-25_17-32-49
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1719329571.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── rayTuneTrain_2e087_00001_1_lr=0.0001_2024-06-25_17-32-49
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1719329571.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   └── tuner.pkl
+├── rayTuneTrain_2024-06-25_17-33-37
+│   ├── basic-variant-state-2024-06-25_17-33-37.json
+│   ├── experiment_state-2024-06-25_17-33-37.json
+│   ├── rayTuneTrain_4a651_00000_0_lr=0.0010_2024-06-25_17-33-37
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1719329618.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── rayTuneTrain_4a651_00001_1_lr=0.0001_2024-06-25_17-33-37
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1719329618.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   └── tuner.pkl
+├── rayTuneTrain_2024-06-25_17-34-59
+│   ├── basic-variant-state-2024-06-25_17-34-59.json
+│   ├── experiment_state-2024-06-25_17-34-59.json
+│   ├── rayTuneTrain_7b82f_00000_0_lr=0.0010_2024-06-25_17-34-59
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1719329701.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── rayTuneTrain_7b82f_00001_1_lr=0.0001_2024-06-25_17-34-59
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1719329701.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   └── tuner.pkl
+├── rayTuneTrain_2024-06-25_17-36-27
+│   ├── basic-variant-state-2024-06-25_17-36-27.json
+│   ├── experiment_state-2024-06-25_17-36-27.json
+│   ├── rayTuneTrain_afb63_00000_0_lr=0.0010_2024-06-25_17-36-27
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1719329788.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── rayTuneTrain_afb63_00001_1_lr=0.0001_2024-06-25_17-36-27
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1719329788.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   └── tuner.pkl
+├── rayTuneTrain_2024-06-25_17-38-47
+│   ├── basic-variant-state-2024-06-25_17-38-47.json
+│   ├── experiment_state-2024-06-25_17-38-47.json
+│   ├── rayTuneTrain_03334_00000_0_lr=0.0010_2024-06-25_17-38-47
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1719329928.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── rayTuneTrain_03334_00001_1_lr=0.0001_2024-06-25_17-38-47
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1719329928.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   └── tuner.pkl
+├── rayTuneTrain_2024-06-25_17-39-24
+│   ├── basic-variant-state-2024-06-25_17-39-24.json
+│   ├── experiment_state-2024-06-25_17-39-24.json
+│   ├── rayTuneTrain_19842_00000_0_lr=0.0010_2024-06-25_17-39-24
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1719329966.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── rayTuneTrain_19842_00001_1_lr=0.0001_2024-06-25_17-39-24
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1719329966.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   └── tuner.pkl
+├── rayTuneTrain_2024-06-25_17-41-14
+│   ├── basic-variant-state-2024-06-25_17-41-14.json
+│   ├── experiment_state-2024-06-25_17-41-14.json
+│   ├── rayTuneTrain_5b127_00000_0_lr=0.0010_2024-06-25_17-41-14
+│   │   ├── events.out.tfevents.1719330076.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── rayTuneTrain_5b127_00001_1_lr=0.0001_2024-06-25_17-41-14
+│   │   ├── events.out.tfevents.1719330076.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   └── tuner.pkl
+├── rayTuneTrain_2024-06-25_17-42-15
+│   ├── basic-variant-state-2024-06-25_17-42-15.json
+│   ├── experiment_state-2024-06-25_17-42-15.json
+│   ├── rayTuneTrain_7f287_00000_0_lr=0.0010_2024-06-25_17-42-15
+│   │   ├── events.out.tfevents.1719330136.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── rayTuneTrain_7f287_00001_1_lr=0.0001_2024-06-25_17-42-15
+│   │   ├── events.out.tfevents.1719330136.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   └── tuner.pkl
+├── rayTuneTrain_2024-06-25_18-44-01
+│   ├── basic-variant-state-2024-06-25_18-44-01.json
+│   ├── experiment_state-2024-06-25_18-44-01.json
+│   ├── rayTuneTrain_20359_00000_0_lr=0.0010_2024-06-25_18-44-01
+│   │   ├── events.out.tfevents.1719333842.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── rayTuneTrain_20359_00001_1_lr=0.0001_2024-06-25_18-44-01
+│   │   ├── events.out.tfevents.1719333842.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   └── tuner.pkl
+├── rayTuneTrain_2024-06-25_18-47-52
+│   ├── basic-variant-state-2024-06-25_18-47-52.json
+│   ├── experiment_state-2024-06-25_18-47-52.json
+│   ├── rayTuneTrain_a9bce_00000_0_lr=0.0010_2024-06-25_18-47-52
+│   │   ├── events.out.tfevents.1719334073.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── rayTuneTrain_a9bce_00001_1_lr=0.0001_2024-06-25_18-47-52
+│   │   ├── events.out.tfevents.1719334073.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   └── tuner.pkl
+├── TorchTrainer_2024-08-07_21-14-43
+│   ├── basic-variant-state-2024-08-07_21-14-43.json
+│   ├── experiment_state-2024-08-07_21-14-43.json
+│   ├── TorchTrainer_4da1e_00000_0_2024-08-07_21-14-43
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1723058085.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-08-07_21-23-33
+│   ├── basic-variant-state-2024-08-07_21-23-33.json
+│   ├── experiment_state-2024-08-07_21-23-33.json
+│   ├── TorchTrainer_8999f_00000_0_2024-08-07_21-23-33
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1723058615.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-08-07_21-27-57
+│   ├── basic-variant-state-2024-08-07_21-27-57.json
+│   ├── experiment_state-2024-08-07_21-27-57.json
+│   ├── TorchTrainer_26fd9_00000_0_2024-08-07_21-27-57
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1723058879.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-08-08_00-05-27
+│   ├── basic-variant-state-2024-08-08_00-05-27.json
+│   ├── experiment_state-2024-08-08_00-05-27.json
+│   ├── TorchTrainer_27970_00000_0_2024-08-08_00-05-27
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1723068329.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-08-08_00-06-00
+│   ├── basic-variant-state-2024-08-08_00-06-00.json
+│   ├── experiment_state-2024-08-08_00-06-00.json
+│   ├── TorchTrainer_3afb0_00000_0_2024-08-08_00-06-00
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1723068361.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-08-08_00-10-58
+│   ├── basic-variant-state-2024-08-08_00-10-58.json
+│   ├── experiment_state-2024-08-08_00-10-58.json
+│   ├── TorchTrainer_ec854_00000_0_2024-08-08_00-10-58
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1723068659.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-08-08_00-15-35
+│   ├── basic-variant-state-2024-08-08_00-15-35.json
+│   ├── experiment_state-2024-08-08_00-15-35.json
+│   ├── TorchTrainer_91df9_00000_0_2024-08-08_00-15-35
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1723068937.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-08-14_09-57-12
+│   ├── basic-variant-state-2024-08-14_09-57-12.json
+│   ├── experiment_state-2024-08-14_09-57-12.json
+│   ├── TorchTrainer_d04eb_00000_0_2024-08-14_09-57-12
+│   │   ├── events.out.tfevents.1723622233.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-08-14_12-28-26
+│   ├── basic-variant-state-2024-08-14_12-28-27.json
+│   ├── experiment_state-2024-08-14_12-28-27.json
+│   ├── TorchTrainer_f1c84_00000_0_2024-08-14_12-28-27
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-08-14_12-29-54
+│   ├── basic-variant-state-2024-08-14_12-29-55.json
+│   ├── experiment_state-2024-08-14_12-29-55.json
+│   ├── TorchTrainer_25fdd_00000_0_2024-08-14_12-29-55
+│   │   ├── events.out.tfevents.1723631396.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-08-14_14-06-14
+│   ├── basic-variant-state-2024-08-14_14-06-15.json
+│   ├── experiment_state-2024-08-14_14-06-15.json
+│   ├── TorchTrainer_9b238_00000_0_2024-08-14_14-06-15
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1723637176.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-08-14_14-12-06
+│   ├── basic-variant-state-2024-08-14_14-12-07.json
+│   ├── experiment_state-2024-08-14_14-12-07.json
+│   ├── TorchTrainer_6d31a_00000_0_2024-08-14_14-12-07
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1723637529.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-08-14_14-13-29
+│   ├── basic-variant-state-2024-08-14_14-13-30.json
+│   ├── experiment_state-2024-08-14_14-13-30.json
+│   ├── TorchTrainer_9e539_00000_0_2024-08-14_14-13-30
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1723637611.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-08-14_14-25-26
+│   ├── basic-variant-state-2024-08-14_14-25-26.json
+│   ├── experiment_state-2024-08-14_14-25-26.json
+│   ├── TorchTrainer_49083_00000_0_2024-08-14_14-25-26
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1723638329.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-08-14_14-32-14
+│   ├── basic-variant-state-2024-08-14_14-32-14.json
+│   ├── experiment_state-2024-08-14_14-32-14.json
+│   ├── TorchTrainer_3c8ce_00000_0_2024-08-14_14-32-14
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1723638737.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-08-14_14-32-35
+│   ├── basic-variant-state-2024-08-14_14-32-35.json
+│   ├── experiment_state-2024-08-14_14-32-35.json
+│   ├── TorchTrainer_492d5_00000_0_2024-08-14_14-32-35
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1723638758.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-08-14_14-34-34
+│   ├── basic-variant-state-2024-08-14_14-34-34.json
+│   ├── experiment_state-2024-08-14_14-34-34.json
+│   ├── TorchTrainer_8f9c3_00000_0_2024-08-14_14-34-34
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1723638877.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-08-14_14-40-56
+│   ├── basic-variant-state-2024-08-14_14-40-56.json
+│   ├── experiment_state-2024-08-14_14-40-56.json
+│   ├── TorchTrainer_73bd9_00000_0_2024-08-14_14-40-56
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1723639259.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-08-14_14-44-20
+│   ├── basic-variant-state-2024-08-14_14-44-20.json
+│   ├── experiment_state-2024-08-14_14-44-20.json
+│   ├── TorchTrainer_ed284_00000_0_2024-08-14_14-44-20
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1723639463.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-08-14_14-45-12
+│   ├── basic-variant-state-2024-08-14_14-45-12.json
+│   ├── experiment_state-2024-08-14_14-45-12.json
+│   ├── TorchTrainer_0c2bf_00000_0_2024-08-14_14-45-12
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1723639515.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-08-14_14-53-34
+│   ├── basic-variant-state-2024-08-14_14-53-34.json
+│   ├── experiment_state-2024-08-14_14-53-34.json
+│   ├── TorchTrainer_37399_00000_0_2024-08-14_14-53-34
+│   │   ├── events.out.tfevents.1723640017.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-08-14_14-58-29
+│   ├── basic-variant-state-2024-08-14_14-58-29.json
+│   ├── experiment_state-2024-08-14_14-58-29.json
+│   ├── TorchTrainer_e7332_00000_0_2024-08-14_14-58-29
+│   │   ├── events.out.tfevents.1723640312.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-08-14_14-59-01
+│   ├── basic-variant-state-2024-08-14_14-59-01.json
+│   ├── experiment_state-2024-08-14_14-59-01.json
+│   ├── TorchTrainer_fa08d_00000_0_2024-08-14_14-59-01
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1723640344.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-08-14_15-00-42
+│   ├── basic-variant-state-2024-08-14_15-00-42.json
+│   ├── experiment_state-2024-08-14_15-00-42.json
+│   ├── TorchTrainer_363d6_00000_0_2024-08-14_15-00-42
+│   │   ├── events.out.tfevents.1723640444.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-08-14_17-17-06
+│   ├── basic-variant-state-2024-08-14_17-17-06.json
+│   ├── experiment_state-2024-08-14_17-17-06.json
+│   ├── TorchTrainer_44395_00000_0_2024-08-14_17-17-06
+│   │   ├── events.out.tfevents.1723648629.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-08-31_00-12-03
+│   ├── basic-variant-state-2024-08-31_00-12-04.json
+│   ├── experiment_state-2024-08-31_00-12-04.json
+│   ├── TorchTrainer_e3a23_00000_0_2024-08-31_00-12-04
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1725055926.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-08-31_00-13-26
+│   ├── basic-variant-state-2024-08-31_00-13-27.json
+│   ├── experiment_state-2024-08-31_00-13-27.json
+│   ├── TorchTrainer_151a9_00000_0_2024-08-31_00-13-27
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1725056009.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-08-31_00-14-04
+│   ├── basic-variant-state-2024-08-31_00-14-05.json
+│   ├── experiment_state-2024-08-31_00-14-05.json
+│   ├── TorchTrainer_2b6da_00000_0_2024-08-31_00-14-05
+│   │   ├── events.out.tfevents.1725056046.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-08-31_01-23-58
+│   ├── basic-variant-state-2024-08-31_01-23-58.json
+│   ├── experiment_state-2024-08-31_01-23-58.json
+│   ├── TorchTrainer_eedb3_00000_0_2024-08-31_01-23-58
+│   │   ├── events.out.tfevents.1725060239.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-08-31_01-24-52
+│   ├── basic-variant-state-2024-08-31_01-24-52.json
+│   ├── experiment_state-2024-08-31_01-24-52.json
+│   ├── TorchTrainer_0ef53_00000_0_2024-08-31_01-24-52
+│   │   ├── events.out.tfevents.1725060293.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-08-31_01-56-24
+│   ├── basic-variant-state-2024-08-31_01-56-24.json
+│   ├── experiment_state-2024-08-31_01-56-24.json
+│   ├── TorchTrainer_76e97_00000_0_2024-08-31_01-56-24
+│   │   ├── events.out.tfevents.1725062186.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-10-13_17-48-52
+│   ├── basic-variant-state-2024-10-13_17-48-52.json
+│   ├── experiment_state-2024-10-13_17-48-52.json
+│   ├── TorchTrainer_a5393_00000_0_2024-10-13_17-48-52
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1728834534.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-10-13_17-54-16
+│   ├── basic-variant-state-2024-10-13_17-54-16.json
+│   ├── experiment_state-2024-10-13_17-54-16.json
+│   ├── TorchTrainer_669d6_00000_0_2024-10-13_17-54-16
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1728834858.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-10-13_17-58-27
+│   ├── basic-variant-state-2024-10-13_17-58-27.json
+│   ├── experiment_state-2024-10-13_17-58-27.json
+│   ├── TorchTrainer_fbd60_00000_0_2024-10-13_17-58-27
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1728835108.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-10-13_17-59-49
+│   ├── basic-variant-state-2024-10-13_17-59-49.json
+│   ├── experiment_state-2024-10-13_17-59-49.json
+│   ├── TorchTrainer_2cc71_00000_0_2024-10-13_17-59-49
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1728835190.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-10-13_18-03-12
+│   ├── basic-variant-state-2024-10-13_18-03-12.json
+│   ├── experiment_state-2024-10-13_18-03-12.json
+│   ├── TorchTrainer_a5f6a_00000_0_2024-10-13_18-03-12
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1728835393.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-10-13_18-06-37
+│   ├── basic-variant-state-2024-10-13_18-06-37.json
+│   ├── experiment_state-2024-10-13_18-06-37.json
+│   ├── TorchTrainer_204c0_00000_0_2024-10-13_18-06-37
+│   │   ├── events.out.tfevents.1728835599.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-10-15_22-23-27
+│   ├── basic-variant-state-2024-10-15_22-23-27.json
+│   ├── experiment_state-2024-10-15_22-23-27.json
+│   ├── TorchTrainer_5646b_00000_0_2024-10-15_22-23-27
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1729023809.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-10-15_22-25-46
+│   ├── basic-variant-state-2024-10-15_22-25-46.json
+│   ├── experiment_state-2024-10-15_22-25-46.json
+│   ├── TorchTrainer_a8c31_00000_0_2024-10-15_22-25-46
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1729023947.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-10-15_22-27-13
+│   ├── basic-variant-state-2024-10-15_22-27-13.json
+│   ├── experiment_state-2024-10-15_22-27-13.json
+│   ├── TorchTrainer_dc9d7_00000_0_2024-10-15_22-27-13
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1729024034.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-10-15_22-28-32
+│   ├── basic-variant-state-2024-10-15_22-28-32.json
+│   ├── experiment_state-2024-10-15_22-28-32.json
+│   ├── TorchTrainer_0ba0e_00000_0_2024-10-15_22-28-32
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1729024113.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-10-15_22-29-57
+│   ├── basic-variant-state-2024-10-15_22-29-57.json
+│   ├── experiment_state-2024-10-15_22-29-57.json
+│   ├── TorchTrainer_3e9a4_00000_0_2024-10-15_22-29-57
+│   │   ├── events.out.tfevents.1729024199.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-10-15_22-34-35
+│   ├── basic-variant-state-2024-10-15_22-34-35.json
+│   ├── experiment_state-2024-10-15_22-34-35.json
+│   ├── TorchTrainer_e4762_00000_0_2024-10-15_22-34-35
+│   │   ├── events.out.tfevents.1729024477.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-10-15_22-36-58
+│   ├── basic-variant-state-2024-10-15_22-36-58.json
+│   ├── experiment_state-2024-10-15_22-36-58.json
+│   ├── TorchTrainer_393cf_00000_0_2024-10-15_22-36-58
+│   │   ├── events.out.tfevents.1729024619.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-10-15_22-40-15
+│   ├── basic-variant-state-2024-10-15_22-40-15.json
+│   ├── experiment_state-2024-10-15_22-40-15.json
+│   ├── TorchTrainer_aef1a_00000_0_2024-10-15_22-40-15
+│   │   ├── events.out.tfevents.1729024817.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-10-15_22-42-12
+│   ├── basic-variant-state-2024-10-15_22-42-12.json
+│   ├── experiment_state-2024-10-15_22-42-12.json
+│   ├── TorchTrainer_f4c1d_00000_0_2024-10-15_22-42-12
+│   │   ├── events.out.tfevents.1729024934.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-10-15_22-44-59
+│   ├── basic-variant-state-2024-10-15_22-44-59.json
+│   ├── experiment_state-2024-10-15_22-44-59.json
+│   ├── TorchTrainer_580ea_00000_0_2024-10-15_22-44-59
+│   │   ├── events.out.tfevents.1729025101.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-10-15_22-46-28
+│   ├── basic-variant-state-2024-10-15_22-46-28.json
+│   ├── experiment_state-2024-10-15_22-46-28.json
+│   ├── TorchTrainer_8d163_00000_0_2024-10-15_22-46-28
+│   │   ├── events.out.tfevents.1729025190.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-10-15_22-49-15
+│   ├── basic-variant-state-2024-10-15_22-49-15.json
+│   ├── experiment_state-2024-10-15_22-49-15.json
+│   ├── TorchTrainer_f0c24_00000_0_2024-10-15_22-49-15
+│   │   ├── events.out.tfevents.1729025357.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-10-15_22-51-11
+│   ├── basic-variant-state-2024-10-15_22-51-11.json
+│   ├── experiment_state-2024-10-15_22-51-11.json
+│   ├── TorchTrainer_3625b_00000_0_2024-10-15_22-51-11
+│   │   ├── events.out.tfevents.1729025473.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-10-15_22-52-29
+│   ├── basic-variant-state-2024-10-15_22-52-29.json
+│   ├── experiment_state-2024-10-15_22-52-29.json
+│   ├── TorchTrainer_6439f_00000_0_2024-10-15_22-52-29
+│   │   ├── events.out.tfevents.1729025551.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-10-15_22-53-07
+│   ├── basic-variant-state-2024-10-15_22-53-07.json
+│   ├── experiment_state-2024-10-15_22-53-07.json
+│   ├── TorchTrainer_7b094_00000_0_2024-10-15_22-53-07
+│   │   ├── events.out.tfevents.1729025589.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-10-15_22-56-04
+│   ├── basic-variant-state-2024-10-15_22-56-04.json
+│   ├── experiment_state-2024-10-15_22-56-04.json
+│   ├── TorchTrainer_e4aa8_00000_0_2024-10-15_22-56-04
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1729025766.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-10-15_22-56-59
+│   ├── basic-variant-state-2024-10-15_22-56-59.json
+│   ├── experiment_state-2024-10-15_22-56-59.json
+│   ├── TorchTrainer_05425_00000_0_2024-10-15_22-56-59
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1729025821.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-10-15_22-58-04
+│   ├── basic-variant-state-2024-10-15_22-58-04.json
+│   ├── experiment_state-2024-10-15_22-58-04.json
+│   ├── TorchTrainer_2bd84_00000_0_2024-10-15_22-58-04
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1729025885.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-10-15_22-59-20
+│   ├── basic-variant-state-2024-10-15_22-59-20.json
+│   ├── experiment_state-2024-10-15_22-59-20.json
+│   ├── TorchTrainer_5990b_00000_0_2024-10-15_22-59-20
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1729025962.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-10-15_23-00-45
+│   ├── basic-variant-state-2024-10-15_23-00-45.json
+│   ├── experiment_state-2024-10-15_23-00-45.json
+│   ├── TorchTrainer_8c249_00000_0_2024-10-15_23-00-45
+│   │   ├── events.out.tfevents.1729026047.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-10-15_23-04-44
+│   ├── basic-variant-state-2024-10-15_23-04-44.json
+│   ├── experiment_state-2024-10-15_23-04-44.json
+│   ├── TorchTrainer_1abce_00000_0_2024-10-15_23-04-44
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1729026286.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-10-15_23-06-02
+│   ├── basic-variant-state-2024-10-15_23-06-02.json
+│   ├── experiment_state-2024-10-15_23-06-02.json
+│   ├── TorchTrainer_48ec9_00000_0_2024-10-15_23-06-02
+│   │   ├── events.out.tfevents.1729026364.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-10-15_23-11-20
+│   ├── basic-variant-state-2024-10-15_23-11-20.json
+│   ├── experiment_state-2024-10-15_23-11-20.json
+│   ├── TorchTrainer_063db_00000_0_2024-10-15_23-11-20
+│   │   ├── events.out.tfevents.1729026681.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-10-15_23-13-36
+│   ├── basic-variant-state-2024-10-15_23-13-36.json
+│   ├── experiment_state-2024-10-15_23-13-36.json
+│   ├── TorchTrainer_5748f_00000_0_2024-10-15_23-13-36
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1729026817.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-10-15_23-14-12
+│   ├── basic-variant-state-2024-10-15_23-14-12.json
+│   ├── experiment_state-2024-10-15_23-14-12.json
+│   ├── TorchTrainer_6cc85_00000_0_2024-10-15_23-14-12
+│   │   ├── events.out.tfevents.1729026853.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-10-18_23-36-53
+│   ├── basic-variant-state-2024-10-18_23-36-53.json
+│   ├── experiment_state-2024-10-18_23-36-53.json
+│   ├── TorchTrainer_17864_00000_0_2024-10-18_23-36-53
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1729287414.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-10-18_23-37-53
+│   ├── basic-variant-state-2024-10-18_23-37-53.json
+│   ├── experiment_state-2024-10-18_23-37-53.json
+│   ├── TorchTrainer_3af36_00000_0_2024-10-18_23-37-53
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1729287474.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-10-18_23-39-13
+│   ├── basic-variant-state-2024-10-18_23-39-13.json
+│   ├── experiment_state-2024-10-18_23-39-13.json
+│   ├── TorchTrainer_6ab34_00000_0_2024-10-18_23-39-13
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1729287554.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-10-18_23-40-00
+│   ├── basic-variant-state-2024-10-18_23-40-00.json
+│   ├── experiment_state-2024-10-18_23-40-00.json
+│   ├── TorchTrainer_87279_00000_0_2024-10-18_23-40-00
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1729287602.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── trainer.pkl
+│   └── tuner.pkl
+├── TorchTrainer_2024-11-05_20-49-33
+│   ├── basic-variant-state-2024-11-05_20-49-33.json
+│   ├── experiment_state-2024-11-05_20-49-33.json
+│   ├── TorchTrainer_149b6_00000_0_lr=0.0010_2024-11-05_20-49-33
+│   ├── TorchTrainer_149b6_00001_1_lr=0.0100_2024-11-05_20-49-33
+│   └── tuner.pkl
+├── TorchTrainer_2024-11-05_20-51-19
+│   ├── basic-variant-state-2024-11-05_20-51-19.json
+│   ├── experiment_state-2024-11-05_20-51-19.json
+│   ├── TorchTrainer_53cc0_00000_0_lr=0.0010_2024-11-05_20-51-19
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1730836281.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── TorchTrainer_53cc0_00001_1_lr=0.0100_2024-11-05_20-51-19
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1730836285.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   └── tuner.pkl
+├── TorchTrainer_2024-11-05_20-53-37
+│   ├── basic-variant-state-2024-11-05_20-53-37.json
+│   ├── experiment_state-2024-11-05_20-53-37.json
+│   ├── TorchTrainer_a5d8c_00000_0_lr=0.0010_2024-11-05_20-53-37
+│   │   ├── checkpoint_000011
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730836418.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_a5d8c_00001_1_lr=0.0100_2024-11-05_20-53-37
+│   │   ├── checkpoint_000011
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730836431.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   └── tuner.pkl
+├── TorchTrainer_2024-11-05_20-57-29
+│   ├── basic-variant-state-2024-11-05_20-57-29.json
+│   ├── experiment_state-2024-11-05_20-57-29.json
+│   ├── TorchTrainer_304cf_00000_0_lr=0.0010_2024-11-05_20-57-29
+│   │   ├── checkpoint_000010
+│   │   │   └── model.pt
+│   │   ├── checkpoint_000011
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730836651.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_304cf_00001_1_lr=0.0100_2024-11-05_20-57-29
+│   │   ├── checkpoint_000011
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730836664.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   └── tuner.pkl
+├── TorchTrainer_2024-11-06_06-14-27
+│   ├── experiment_state-2024-11-06_06-14-27.json
+│   ├── searcher-state-2024-11-06_06-14-27.pkl
+│   ├── search_gen_state-2024-11-06_06-14-27.json
+│   ├── TorchTrainer_0613ab88_1_batch_size_per_worker=16,epochs=18,lr=0.0003,optimizer=sgd_2024-11-06_06-14-27
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1730870069.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── TorchTrainer_a05d11f9_2_batch_size_per_worker=16,epochs=10,lr=0.0002,optimizer=Adam_2024-11-06_06-14-29
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1730870073.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── TorchTrainer_ae00cd33_4_batch_size_per_worker=16,epochs=10,lr=0.0001,optimizer=Adam_2024-11-06_06-14-38
+│   │   ├── events.out.tfevents.1730870083.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── TorchTrainer_c883a9b4_5_batch_size_per_worker=16,epochs=20,lr=0.0000,optimizer=Adam_2024-11-06_06-14-43
+│   ├── TorchTrainer_d91642b5_3_batch_size_per_worker=16,epochs=10,lr=0.0004,optimizer=sgd_2024-11-06_06-14-33
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1730870078.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   └── tuner.pkl
+├── TorchTrainer_2024-11-06_06-18-46
+│   ├── experiment_state-2024-11-06_06-18-46.json
+│   ├── searcher-state-2024-11-06_06-18-46.pkl
+│   ├── search_gen_state-2024-11-06_06-18-46.json
+│   ├── TorchTrainer_0006e9ba_5_batch_size_per_worker=16,epochs=18,lr=0.0000_2024-11-06_06-19-02
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1730870347.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── TorchTrainer_088ff3d1_12_batch_size_per_worker=16,epochs=20,lr=0.0001_2024-11-06_06-19-33
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1730870377.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── TorchTrainer_1318aadb_11_batch_size_per_worker=16,epochs=10,lr=0.0010_2024-11-06_06-19-28
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1730870373.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── TorchTrainer_17285977_1_batch_size_per_worker=16,epochs=18,lr=0.0013_2024-11-06_06-18-46
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1730870327.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── TorchTrainer_2947d3d4_21_batch_size_per_worker=16,epochs=20,lr=0.0006_2024-11-06_06-20-11
+│   ├── TorchTrainer_30a39fac_20_batch_size_per_worker=16,epochs=18,lr=0.0006_2024-11-06_06-20-07
+│   │   ├── events.out.tfevents.1730870411.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── TorchTrainer_35388761_16_batch_size_per_worker=16,epochs=18,lr=0.0008_2024-11-06_06-19-50
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1730870394.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── TorchTrainer_399a2638_2_batch_size_per_worker=16,epochs=18,lr=0.0087_2024-11-06_06-18-47
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1730870332.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── TorchTrainer_3c830d20_9_batch_size_per_worker=16,epochs=18,lr=0.0001_2024-11-06_06-19-20
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1730870364.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── TorchTrainer_4e1faae0_17_batch_size_per_worker=16,epochs=20,lr=0.0011_2024-11-06_06-19-54
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1730870399.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── TorchTrainer_7e48f655_19_batch_size_per_worker=16,epochs=10,lr=0.0015_2024-11-06_06-20-03
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1730870407.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── TorchTrainer_87b56340_8_batch_size_per_worker=16,epochs=10,lr=0.0001_2024-11-06_06-19-16
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1730870360.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── TorchTrainer_88c135d8_14_batch_size_per_worker=16,epochs=18,lr=0.0000_2024-11-06_06-19-42
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1730870386.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── TorchTrainer_8b46050a_4_batch_size_per_worker=16,epochs=20,lr=0.0001_2024-11-06_06-18-57
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1730870342.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── TorchTrainer_92f09858_15_batch_size_per_worker=16,epochs=10,lr=0.0002_2024-11-06_06-19-46
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1730870390.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── TorchTrainer_a76a33d9_3_batch_size_per_worker=16,epochs=20,lr=0.0007_2024-11-06_06-18-52
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1730870337.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── TorchTrainer_ad9b6d76_7_batch_size_per_worker=16,epochs=10,lr=0.0002_2024-11-06_06-19-12
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1730870356.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── TorchTrainer_b601cf55_6_batch_size_per_worker=16,epochs=18,lr=0.0000_2024-11-06_06-19-07
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1730870352.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── TorchTrainer_d5208829_13_batch_size_per_worker=16,epochs=10,lr=0.0001_2024-11-06_06-19-37
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1730870382.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── TorchTrainer_e0b6ddef_10_batch_size_per_worker=16,epochs=10,lr=0.0003_2024-11-06_06-19-24
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1730870368.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── TorchTrainer_fe1a16ee_18_batch_size_per_worker=16,epochs=18,lr=0.0072_2024-11-06_06-19-59
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1730870403.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   └── tuner.pkl
+├── TorchTrainer_2024-11-06_06-20-52
+│   ├── experiment_state-2024-11-06_06-20-52.json
+│   ├── searcher-state-2024-11-06_06-20-52.pkl
+│   ├── search_gen_state-2024-11-06_06-20-52.json
+│   ├── TorchTrainer_8ebc1574_1_batch_size_per_worker=16,epochs=18,lr=0.0004,optimizer=Adam_2024-11-06_06-20-52
+│   │   └── checkpoint_000000
+│   │       └── model.pt
+│   └── tuner.pkl
+├── TorchTrainer_2024-11-06_06-22-43
+│   ├── experiment_state-2024-11-06_06-22-43.json
+│   ├── searcher-state-2024-11-06_06-22-43.pkl
+│   ├── search_gen_state-2024-11-06_06-22-43.json
+│   ├── TorchTrainer_028d258b_22_batch_size_per_worker=16,epochs=20,lr=0.0020,optimizer=Adam_2024-11-06_06-27-02
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730870835.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_03c475a3_49_batch_size_per_worker=16,epochs=10,lr=0.0004,optimizer=sgd_2024-11-06_06-36-02
+│   │   ├── checkpoint_000009
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730871408.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_0be3b671_2_batch_size_per_worker=16,epochs=18,lr=0.0000,optimizer=Adam_2024-11-06_06-22-44
+│   │   ├── checkpoint_000017
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730870578.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_0d2b235b_6_batch_size_per_worker=16,epochs=18,lr=0.0015,optimizer=sgd_2024-11-06_06-23-38
+│   │   ├── checkpoint_000017
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730870632.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_116fa9b9_24_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=Adam_2024-11-06_06-27-30
+│   │   ├── checkpoint_000016
+│   │   │   └── model.pt
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730870865.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_12171000_11_batch_size_per_worker=16,epochs=10,lr=0.0000,optimizer=Adam_2024-11-06_06-24-37
+│   │   ├── checkpoint_000009
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730870688.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_1242d870_12_batch_size_per_worker=16,epochs=18,lr=0.0000,optimizer=Adam_2024-11-06_06-24-48
+│   │   ├── checkpoint_000017
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730870699.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_1bf90a9a_18_batch_size_per_worker=16,epochs=18,lr=0.0002,optimizer=Adam_2024-11-06_06-26-06
+│   │   ├── checkpoint_000017
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730870779.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_1fbec800_28_batch_size_per_worker=16,epochs=20,lr=0.0002,optimizer=Adam_2024-11-06_06-28-29
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730870924.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_25cfddd2_9_batch_size_per_worker=16,epochs=10,lr=0.0003,optimizer=sgd_2024-11-06_06-24-17
+│   │   ├── checkpoint_000009
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730870667.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_2bfb80f0_48_batch_size_per_worker=16,epochs=10,lr=0.0001,optimizer=sgd_2024-11-06_06-35-52
+│   │   ├── checkpoint_000009
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730871362.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_31bbce77_10_batch_size_per_worker=16,epochs=10,lr=0.0000,optimizer=Adam_2024-11-06_06-24-27
+│   │   ├── checkpoint_000009
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730870677.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_34c67089_27_batch_size_per_worker=16,epochs=20,lr=0.0099,optimizer=Adam_2024-11-06_06-28-15
+│   │   ├── checkpoint_000017
+│   │   │   └── model.pt
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730870909.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_3b74e9fe_41_batch_size_per_worker=16,epochs=20,lr=0.0009,optimizer=Adam_2024-11-06_06-31-39
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730871114.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_3da10d2e_20_batch_size_per_worker=16,epochs=20,lr=0.0006,optimizer=Adam_2024-11-06_06-26-33
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730870808.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_4d124b01_42_batch_size_per_worker=16,epochs=20,lr=0.0009,optimizer=Adam_2024-11-06_06-31-54
+│   │   ├── checkpoint_000015
+│   │   │   └── model.pt
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730871167.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_5504ea83_1_batch_size_per_worker=16,epochs=18,lr=0.0053,optimizer=Adam_2024-11-06_06-22-43
+│   │   ├── checkpoint_000015
+│   │   │   └── model.pt
+│   │   ├── checkpoint_000017
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730870564.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_55d0df74_14_batch_size_per_worker=16,epochs=18,lr=0.0001,optimizer=Adam_2024-11-06_06-25-12
+│   │   ├── checkpoint_000017
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730870725.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_59b8d42a_46_batch_size_per_worker=16,epochs=20,lr=0.0001,optimizer=Adam_2024-11-06_06-34-47
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730871302.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_5d585a2a_37_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=sgd_2024-11-06_06-30-39
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730871054.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_5de38df6_40_batch_size_per_worker=16,epochs=20,lr=0.0023,optimizer=Adam_2024-11-06_06-31-24
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730871099.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_63e0a726_47_batch_size_per_worker=16,epochs=10,lr=0.0002,optimizer=Adam_2024-11-06_06-35-02
+│   │   ├── checkpoint_000003
+│   │   │   └── model.pt
+│   │   ├── checkpoint_000009
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730871352.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_6d8e4d48_30_batch_size_per_worker=16,epochs=20,lr=0.0003,optimizer=Adam_2024-11-06_06-28-58
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730870952.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_6e62d1fc_19_batch_size_per_worker=16,epochs=20,lr=0.0007,optimizer=Adam_2024-11-06_06-26-19
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730870793.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_757d4200_17_batch_size_per_worker=16,epochs=18,lr=0.0001,optimizer=Adam_2024-11-06_06-25-52
+│   │   ├── checkpoint_000017
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730870766.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_80a17f0b_16_batch_size_per_worker=16,epochs=18,lr=0.0001,optimizer=Adam_2024-11-06_06-25-38
+│   │   ├── checkpoint_000017
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730870752.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_80e530f7_44_batch_size_per_worker=16,epochs=20,lr=0.0003,optimizer=Adam_2024-11-06_06-33-01
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730871232.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_8d73d599_23_batch_size_per_worker=16,epochs=20,lr=0.0003,optimizer=Adam_2024-11-06_06-27-15
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730870850.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_922bf7a0_15_batch_size_per_worker=16,epochs=18,lr=0.0001,optimizer=Adam_2024-11-06_06-25-25
+│   │   ├── checkpoint_000017
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730870738.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_961f1a11_34_batch_size_per_worker=16,epochs=20,lr=0.0003,optimizer=Adam_2024-11-06_06-29-56
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730871010.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_96b2a833_32_batch_size_per_worker=16,epochs=20,lr=0.0014,optimizer=Adam_2024-11-06_06-29-27
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730870981.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_9964014a_50_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=Adam_2024-11-06_06-36-48
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730871418.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_9d911690_4_batch_size_per_worker=16,epochs=20,lr=0.0001,optimizer=sgd_2024-11-06_06-23-12
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730870605.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_a938c814_8_batch_size_per_worker=16,epochs=10,lr=0.0002,optimizer=sgd_2024-11-06_06-24-06
+│   │   ├── checkpoint_000009
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730870657.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_ab4c92da_25_batch_size_per_worker=16,epochs=20,lr=0.0006,optimizer=Adam_2024-11-06_06-27-45
+│   │   ├── checkpoint_000014
+│   │   │   └── model.pt
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730870880.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_abd71a3f_31_batch_size_per_worker=16,epochs=20,lr=0.0003,optimizer=Adam_2024-11-06_06-29-12
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730870967.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_adc9e750_43_batch_size_per_worker=16,epochs=20,lr=0.0009,optimizer=Adam_2024-11-06_06-32-47
+│   │   ├── checkpoint_000015
+│   │   │   └── model.pt
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730871181.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_ae07a47d_35_batch_size_per_worker=16,epochs=20,lr=0.0012,optimizer=Adam_2024-11-06_06-30-10
+│   │   ├── checkpoint_000016
+│   │   │   └── model.pt
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730871024.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_b54dbdfb_33_batch_size_per_worker=16,epochs=20,lr=0.0003,optimizer=Adam_2024-11-06_06-29-41
+│   │   ├── checkpoint_000016
+│   │   │   └── model.pt
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730870996.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_bbf1f23f_3_batch_size_per_worker=16,epochs=20,lr=0.0010,optimizer=sgd_2024-11-06_06-22-58
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730870592.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_bc4e36f7_38_batch_size_per_worker=16,epochs=20,lr=0.0004,optimizer=sgd_2024-11-06_06-30-54
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730871069.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_cf1e544a_26_batch_size_per_worker=16,epochs=20,lr=0.0003,optimizer=Adam_2024-11-06_06-28-00
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730870895.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_d09a9555_7_batch_size_per_worker=16,epochs=10,lr=0.0036,optimizer=sgd_2024-11-06_06-23-52
+│   │   ├── checkpoint_000009
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730870646.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_da102426_5_batch_size_per_worker=16,epochs=18,lr=0.0001,optimizer=Adam_2024-11-06_06-23-25
+│   │   ├── checkpoint_000017
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730870618.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_da732a1f_13_batch_size_per_worker=16,epochs=18,lr=0.0000,optimizer=Adam_2024-11-06_06-24-59
+│   │   ├── checkpoint_000017
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730870712.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_dae7794f_45_batch_size_per_worker=16,epochs=20,lr=0.0003,optimizer=Adam_2024-11-06_06-33-52
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730871287.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_dd3b2103_29_batch_size_per_worker=16,epochs=20,lr=0.0002,optimizer=Adam_2024-11-06_06-28-44
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730870938.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_ec3dc3b6_39_batch_size_per_worker=16,epochs=20,lr=0.0020,optimizer=sgd_2024-11-06_06-31-09
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730871084.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_f7e003ee_36_batch_size_per_worker=16,epochs=20,lr=0.0010,optimizer=Adam_2024-11-06_06-30-24
+│   │   ├── checkpoint_000013
+│   │   │   └── model.pt
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730871039.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_fca34f44_21_batch_size_per_worker=16,epochs=18,lr=0.0002,optimizer=Adam_2024-11-06_06-26-48
+│   │   ├── checkpoint_000017
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730870822.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   └── tuner.pkl
+├── TorchTrainer_2024-11-06_07-07-55
+│   └── tuner.pkl
+├── TorchTrainer_2024-11-06_07-09-10
+│   ├── experiment_state-2024-11-06_07-09-10.json
+│   ├── searcher-state-2024-11-06_07-09-10.pkl
+│   ├── search_gen_state-2024-11-06_07-09-10.json
+│   ├── TorchTrainer_06a30eff_11_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=Adam_2024-11-06_07-11-16
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730873489.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_0e75f8f9_14_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=Adam_2024-11-06_07-11-58
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730873532.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_114b79f3_15_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=Adam_2024-11-06_07-12-12
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730873546.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_18eec50c_40_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=Adam_2024-11-06_07-18-08
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730873903.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_1b93c558_7_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=sgd_2024-11-06_07-10-20
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730873434.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_3058707e_50_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=Adam_2024-11-06_07-20-34
+│   │   ├── checkpoint_000011
+│   │   │   └── model.pt
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730874048.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_30a8b6ec_29_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=Adam_2024-11-06_07-15-34
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730873748.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_30e83a9d_5_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=Adam_2024-11-06_07-09-52
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730873406.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_311c9ce5_46_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=Adam_2024-11-06_07-19-35
+│   │   ├── checkpoint_000010
+│   │   │   └── model.pt
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730873989.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_317f38db_16_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=Adam_2024-11-06_07-12-26
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730873560.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_3313e858_41_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=Adam_2024-11-06_07-18-23
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730873918.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_34ed6c21_35_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=Adam_2024-11-06_07-16-59
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730873833.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_35306a7c_28_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=Adam_2024-11-06_07-15-20
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730873734.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_3c32519c_38_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=sgd_2024-11-06_07-17-41
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730873875.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_44846b36_20_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=Adam_2024-11-06_07-13-23
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730873618.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_46ebf29d_31_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=Adam_2024-11-06_07-16-02
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730873776.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_52cccb8c_18_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=Adam_2024-11-06_07-12-54
+│   │   ├── checkpoint_000017
+│   │   │   └── model.pt
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730873588.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_585f3d14_13_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=Adam_2024-11-06_07-11-44
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730873518.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_5f193127_44_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=Adam_2024-11-06_07-19-06
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730873961.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_608bfbd5_3_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=sgd_2024-11-06_07-09-25
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730873378.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_65fed17e_32_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=Adam_2024-11-06_07-16-16
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730873791.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_6f9c31f8_33_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=Adam_2024-11-06_07-16-31
+│   │   ├── checkpoint_000016
+│   │   │   └── model.pt
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730873805.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_71aabbdb_36_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=sgd_2024-11-06_07-17-13
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730873848.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_7751f906_8_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=sgd_2024-11-06_07-10-34
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730873448.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_79572b7d_42_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=sgd_2024-11-06_07-18-38
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730873932.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_797c00dd_17_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=Adam_2024-11-06_07-12-40
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730873574.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_799c18d8_48_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=Adam_2024-11-06_07-20-04
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730874019.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_7a5cb03c_1_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=sgd_2024-11-06_07-09-10
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730873351.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_7c4145e6_6_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=sgd_2024-11-06_07-10-06
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730873420.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_813a265c_12_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=Adam_2024-11-06_07-11-29
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730873504.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_83698d0a_24_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=Adam_2024-11-06_07-14-22
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730873677.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_8a8237af_9_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=Adam_2024-11-06_07-10-48
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730873462.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_8bb1bd58_43_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=Adam_2024-11-06_07-18-52
+│   │   ├── checkpoint_000013
+│   │   │   └── model.pt
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730873946.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_8d21e6e7_49_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=Adam_2024-11-06_07-20-19
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730874034.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_96d712bc_34_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=Adam_2024-11-06_07-16-45
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730873819.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_9cf64330_10_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=sgd_2024-11-06_07-11-02
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730873476.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_a305d8ed_30_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=Adam_2024-11-06_07-15-48
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730873762.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_aacad74a_47_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=Adam_2024-11-06_07-19-49
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730874004.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_add2a43c_4_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=Adam_2024-11-06_07-09-38
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730873392.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_afde039d_27_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=Adam_2024-11-06_07-15-06
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730873720.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_b32e6090_39_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=Adam_2024-11-06_07-17-55
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730873888.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_b3b638f9_45_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=Adam_2024-11-06_07-19-21
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730873975.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_b3dbcd5a_19_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=Adam_2024-11-06_07-13-08
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730873603.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_bde5b29d_23_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=Adam_2024-11-06_07-14-07
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730873662.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_c4c95ff4_21_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=Adam_2024-11-06_07-13-38
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730873632.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_d2e80fdd_37_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=sgd_2024-11-06_07-17-28
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730873861.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_e875f108_2_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=sgd_2024-11-06_07-09-11
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730873365.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_eee634cc_22_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=Adam_2024-11-06_07-13-52
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730873647.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_f3a069cf_26_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=Adam_2024-11-06_07-14-52
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730873706.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_f651b7a9_25_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=Adam_2024-11-06_07-14-37
+│   │   ├── checkpoint_000016
+│   │   │   └── model.pt
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730873692.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   └── tuner.pkl
+├── TorchTrainer_2024-11-06_17-31-56
+│   ├── experiment_state-2024-11-06_17-31-56.json
+│   ├── searcher-state-2024-11-06_17-31-56.pkl
+│   ├── search_gen_state-2024-11-06_17-31-56.json
+│   ├── TorchTrainer_0919c332_11_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=Adam_2024-11-06_17-34-00
+│   ├── TorchTrainer_1011b2d0_9_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=sgd_2024-11-06_17-33-33
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730910827.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_2064dae9_8_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=Adam_2024-11-06_17-33-19
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730910813.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_2bc11cb2_3_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=sgd_2024-11-06_17-32-11
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730910744.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_350668f7_2_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=sgd_2024-11-06_17-31-58
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730910731.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_4d8d56be_5_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=sgd_2024-11-06_17-32-37
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730910771.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_637eda6a_4_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=sgd_2024-11-06_17-32-24
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730910757.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_bff063f7_10_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=Adam_2024-11-06_17-33-47
+│   │   ├── checkpoint_000009
+│   │   │   └── model.pt
+│   │   ├── checkpoint_000010
+│   │   │   └── model.pt
+│   │   ├── checkpoint_000011
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730910840.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_c4aae6a5_1_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=sgd_2024-11-06_17-31-56
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730910718.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_cc1df593_7_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=Adam_2024-11-06_17-33-04
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730910799.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── TorchTrainer_fb4b7988_6_batch_size_per_worker=16,epochs=20,lr=0.0005,optimizer=Adam_2024-11-06_17-32-51
+│   │   ├── checkpoint_000019
+│   │   │   └── model.pt
+│   │   ├── events.out.tfevents.1730910784.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   └── tuner.pkl
+├── _trainable_2024-07-01_15-45-14
+│   ├── basic-variant-state-2024-07-01_15-45-17.json
+│   ├── experiment_state-2024-07-01_15-45-17.json
+│   ├── _trainable_266b8_00000_0_lr=0.0010_2024-07-01_15-45-17
+│   │   ├── events.out.tfevents.1719841520.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── _trainable_266b8_00001_1_lr=0.0001_2024-07-01_15-45-17
+│   │   ├── events.out.tfevents.1719841520.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   └── tuner.pkl
+├── _trainable_2024-07-05_22-19-23
+│   ├── basic-variant-state-2024-07-05_22-19-23.json
+│   ├── experiment_state-2024-07-05_22-19-23.json
+│   ├── _trainable_de5bc_00000_0_lr=0.0010_2024-07-05_22-19-23
+│   │   ├── events.out.tfevents.1720210765.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   ├── _trainable_de5bc_00001_1_lr=0.0001_2024-07-05_22-19-23
+│   │   ├── events.out.tfevents.1720210980.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   ├── progress.csv
+│   │   └── result.json
+│   └── tuner.pkl
+├── _trainable_2024-07-05_22-44-47
+│   ├── basic-variant-state-2024-07-05_22-44-47.json
+│   ├── experiment_state-2024-07-05_22-44-47.json
+│   ├── _trainable_6afbf_00000_0_lr=0.0010_2024-07-05_22-44-48
+│   ├── _trainable_6afbf_00001_1_lr=0.0001_2024-07-05_22-44-48
+│   └── tuner.pkl
+├── _trainable_2024-07-07_21-11-42
+│   ├── basic-variant-state-2024-07-07_21-11-42.json
+│   ├── experiment_state-2024-07-07_21-11-42.json
+│   ├── _trainable_be8e4_00000_0_lr=0.0010_2024-07-07_21-11-42
+│   │   ├── events.out.tfevents.1720379504.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── _trainable_be8e4_00001_1_lr=0.0001_2024-07-07_21-11-42
+│   └── tuner.pkl
+├── train_fn_2024-10-13_18-51-32
+│   ├── basic-variant-state-2024-10-13_18-51-32.json
+│   ├── experiment_state-2024-10-13_18-51-32.json
+│   ├── train_fn_6646b_00000_0_batch_size=32,lr=0.0008_2024-10-13_18-51-32
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1728838294.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── train_fn_6646b_00001_1_batch_size=16,lr=0.0017_2024-10-13_18-51-32
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1728838293.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── train_fn_6646b_00002_2_batch_size=16,lr=0.0026_2024-10-13_18-51-32
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1728838293.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── train_fn_6646b_00003_3_batch_size=32,lr=0.0147_2024-10-13_18-51-32
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1728838294.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── train_fn_6646b_00004_4_batch_size=64,lr=0.0398_2024-10-13_18-51-32
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1728838293.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── train_fn_6646b_00005_5_batch_size=64,lr=0.0004_2024-10-13_18-51-32
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1728838294.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── train_fn_6646b_00006_6_batch_size=64,lr=0.0003_2024-10-13_18-51-32
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1728838294.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── train_fn_6646b_00007_7_batch_size=16,lr=0.0002_2024-10-13_18-51-32
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1728838293.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── train_fn_6646b_00008_8_batch_size=64,lr=0.0008_2024-10-13_18-51-32
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1728838293.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   └── train_fn_6646b_00009_9_batch_size=32,lr=0.0006_2024-10-13_18-51-32
+│       ├── error.pkl
+│       ├── error.txt
+│       ├── events.out.tfevents.1728838293.turing
+│       ├── params.json
+│       ├── params.pkl
+│       └── result.json
+├── train_func_2024-10-22_11-29-17
+│   ├── basic-variant-state-2024-10-22_11-29-17.json
+│   ├── experiment_state-2024-10-22_11-29-17.json
+│   ├── train_func_1c10c_00000_0_2024-10-22_11-29-17
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1729589358.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   └── tuner.pkl
+├── train_func_2024-10-22_11-41-59
+│   ├── basic-variant-state-2024-10-22_11-42-00.json
+│   ├── experiment_state-2024-10-22_11-42-00.json
+│   ├── train_func_e29a9_00000_0_2024-10-22_11-42-00
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1729590121.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   └── tuner.pkl
+├── training_function_2024-06-24_22-25-33
+│   ├── basic-variant-state-2024-06-24_22-25-33.json
+│   ├── experiment_state-2024-06-24_22-25-33.json
+│   ├── training_function_e86b9_00000_0_alpha=0.0010,beta=2_2024-06-24_22-25-33
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1719260734.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── training_function_e86b9_00001_1_alpha=0.0100,beta=2_2024-06-24_22-25-33
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1719260734.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   └── training_function_e86b9_00002_2_alpha=0.1000,beta=3_2024-06-24_22-25-33
+│       ├── error.pkl
+│       ├── error.txt
+│       ├── events.out.tfevents.1719260734.turing
+│       ├── params.json
+│       ├── params.pkl
+│       └── result.json
+├── training_function_2024-06-24_22-28-05
+│   ├── basic-variant-state-2024-06-24_22-28-05.json
+│   ├── experiment_state-2024-06-24_22-28-05.json
+│   ├── training_function_43007_00000_0_alpha=0.0010,beta=3_2024-06-24_22-28-05
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1719260886.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── training_function_43007_00001_1_alpha=0.0100,beta=3_2024-06-24_22-28-05
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1719260886.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   └── training_function_43007_00002_2_alpha=0.1000,beta=1_2024-06-24_22-28-05
+│       ├── error.pkl
+│       ├── error.txt
+│       ├── events.out.tfevents.1719260886.turing
+│       ├── params.json
+│       ├── params.pkl
+│       └── result.json
+├── training_function_2024-06-24_22-28-54
+│   ├── basic-variant-state-2024-06-24_22-28-55.json
+│   ├── experiment_state-2024-06-24_22-28-55.json
+│   ├── training_function_60699_00000_0_alpha=0.0010,beta=2_2024-06-24_22-28-55
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1719260935.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── training_function_60699_00001_1_alpha=0.0100,beta=2_2024-06-24_22-28-55
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1719260935.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   └── training_function_60699_00002_2_alpha=0.1000,beta=3_2024-06-24_22-28-55
+│       ├── error.pkl
+│       ├── error.txt
+│       ├── events.out.tfevents.1719260935.turing
+│       ├── params.json
+│       ├── params.pkl
+│       └── result.json
+├── training_function_2024-06-24_22-29-30
+│   ├── basic-variant-state-2024-06-24_22-29-30.json
+│   ├── experiment_state-2024-06-24_22-29-30.json
+│   ├── training_function_75757_00000_0_alpha=0.0010,beta=1_2024-06-24_22-29-30
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1719260971.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── training_function_75757_00001_1_alpha=0.0100,beta=1_2024-06-24_22-29-30
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1719260971.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   └── training_function_75757_00002_2_alpha=0.1000,beta=3_2024-06-24_22-29-30
+│       ├── error.pkl
+│       ├── error.txt
+│       ├── events.out.tfevents.1719260971.turing
+│       ├── params.json
+│       ├── params.pkl
+│       └── result.json
+├── training_function_2024-06-24_22-30-06
+│   ├── basic-variant-state-2024-06-24_22-30-06.json
+│   ├── experiment_state-2024-06-24_22-30-06.json
+│   ├── training_function_8b221_00000_0_alpha=0.0010,beta=3_2024-06-24_22-30-06
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1719261007.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── training_function_8b221_00001_1_alpha=0.0100,beta=3_2024-06-24_22-30-06
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1719261007.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   └── training_function_8b221_00002_2_alpha=0.1000,beta=3_2024-06-24_22-30-06
+│       ├── error.pkl
+│       ├── error.txt
+│       ├── events.out.tfevents.1719261007.turing
+│       ├── params.json
+│       ├── params.pkl
+│       └── result.json
+├── train_model_2024-06-20_15-25-04
+│   ├── basic-variant-state-2024-06-20_15-25-04.json
+│   ├── experiment_state-2024-06-20_15-25-04.json
+│   ├── train_model_81355_00000_0_lr=0.0224,num_epochs=15_2024-06-20_15-25-04
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1718889906.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── train_model_81355_00001_1_lr=0.0007,num_epochs=15_2024-06-20_15-25-04
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1718889906.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── train_model_81355_00002_2_lr=0.0391,num_epochs=15_2024-06-20_15-25-04
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1718889906.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── train_model_81355_00003_3_lr=0.0305,num_epochs=5_2024-06-20_15-25-04
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1718889906.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── train_model_81355_00004_4_lr=0.0430,num_epochs=15_2024-06-20_15-25-04
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1718889906.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── train_model_81355_00005_5_lr=0.0060,num_epochs=15_2024-06-20_15-25-04
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1718889906.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── train_model_81355_00006_6_lr=0.0405,num_epochs=5_2024-06-20_15-25-04
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1718889906.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── train_model_81355_00007_7_lr=0.0002,num_epochs=5_2024-06-20_15-25-04
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1718889906.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── train_model_81355_00008_8_lr=0.0044,num_epochs=5_2024-06-20_15-25-04
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1718889906.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   └── train_model_81355_00009_9_lr=0.0019,num_epochs=15_2024-06-20_15-25-04
+│       ├── error.pkl
+│       ├── error.txt
+│       ├── events.out.tfevents.1718889906.turing
+│       ├── params.json
+│       ├── params.pkl
+│       └── result.json
+├── train_ray_2024-06-20_16-23-47
+│   ├── basic-variant-state-2024-06-20_16-23-47.json
+│   ├── experiment_state-2024-06-20_16-23-47.json
+│   ├── train_ray_b518f_00000_0_lr=0.0545,num_epochs=15_2024-06-20_16-23-47
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1718893429.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── train_ray_b518f_00001_1_lr=0.0003,num_epochs=5_2024-06-20_16-23-47
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1718893429.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── train_ray_b518f_00002_2_lr=0.0877,num_epochs=10_2024-06-20_16-23-47
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1718893431.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── train_ray_b518f_00003_3_lr=0.0005,num_epochs=5_2024-06-20_16-23-47
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1718893431.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── train_ray_b518f_00004_4_lr=0.0444,num_epochs=15_2024-06-20_16-23-47
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1718893433.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── train_ray_b518f_00005_5_lr=0.0011,num_epochs=5_2024-06-20_16-23-47
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1718893433.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── train_ray_b518f_00006_6_lr=0.0004,num_epochs=10_2024-06-20_16-23-47
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1718893435.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── train_ray_b518f_00007_7_lr=0.0440,num_epochs=10_2024-06-20_16-23-47
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1718893435.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── train_ray_b518f_00008_8_lr=0.0554,num_epochs=5_2024-06-20_16-23-47
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1718893437.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   └── train_ray_b518f_00009_9_lr=0.0033,num_epochs=5_2024-06-20_16-23-47
+│       ├── error.pkl
+│       ├── error.txt
+│       ├── events.out.tfevents.1718893437.turing
+│       ├── params.json
+│       ├── params.pkl
+│       └── result.json
+├── train_ray_2024-06-20_16-27-17
+│   ├── basic-variant-state-2024-06-20_16-27-17.json
+│   ├── experiment_state-2024-06-20_16-27-17.json
+│   ├── train_ray_31e81_00000_0_lr=0.0058,num_epochs=15_2024-06-20_16-27-17
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1718893638.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── train_ray_31e81_00001_1_lr=0.0020,num_epochs=15_2024-06-20_16-27-17
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1718893638.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── train_ray_31e81_00002_2_lr=0.0026,num_epochs=10_2024-06-20_16-27-17
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1718893640.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── train_ray_31e81_00003_3_lr=0.0024,num_epochs=5_2024-06-20_16-27-17
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1718893640.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── train_ray_31e81_00004_4_lr=0.0009,num_epochs=10_2024-06-20_16-27-17
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1718893642.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── train_ray_31e81_00005_5_lr=0.0005,num_epochs=10_2024-06-20_16-27-17
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1718893642.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── train_ray_31e81_00006_6_lr=0.0420,num_epochs=15_2024-06-20_16-27-17
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1718893644.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── train_ray_31e81_00007_7_lr=0.0025,num_epochs=10_2024-06-20_16-27-17
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1718893644.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── train_ray_31e81_00008_8_lr=0.0031,num_epochs=10_2024-06-20_16-27-17
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1718893646.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   └── train_ray_31e81_00009_9_lr=0.0062,num_epochs=10_2024-06-20_16-27-17
+│       ├── error.pkl
+│       ├── error.txt
+│       ├── events.out.tfevents.1718893646.turing
+│       ├── params.json
+│       ├── params.pkl
+│       └── result.json
+├── train_ray_2024-06-20_16-28-27
+│   ├── basic-variant-state-2024-06-20_16-28-27.json
+│   ├── experiment_state-2024-06-20_16-28-27.json
+│   ├── train_ray_5c2d5_00000_0_lr=0.0014,num_epochs=15_2024-06-20_16-28-27
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1718893709.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── train_ray_5c2d5_00001_1_lr=0.0008,num_epochs=15_2024-06-20_16-28-27
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1718893709.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── train_ray_5c2d5_00002_2_lr=0.0005,num_epochs=5_2024-06-20_16-28-27
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1718893711.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── train_ray_5c2d5_00003_3_lr=0.0002,num_epochs=5_2024-06-20_16-28-27
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1718893711.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── train_ray_5c2d5_00004_4_lr=0.0216,num_epochs=5_2024-06-20_16-28-27
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1718893713.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── train_ray_5c2d5_00005_5_lr=0.0041,num_epochs=15_2024-06-20_16-28-27
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1718893713.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── train_ray_5c2d5_00006_6_lr=0.0010,num_epochs=15_2024-06-20_16-28-27
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1718893715.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── train_ray_5c2d5_00007_7_lr=0.0015,num_epochs=10_2024-06-20_16-28-27
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1718893715.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── train_ray_5c2d5_00008_8_lr=0.0019,num_epochs=5_2024-06-20_16-28-27
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1718893717.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   └── train_ray_5c2d5_00009_9_lr=0.0525,num_epochs=15_2024-06-20_16-28-27
+│       ├── error.pkl
+│       ├── error.txt
+│       ├── events.out.tfevents.1718893717.turing
+│       ├── params.json
+│       ├── params.pkl
+│       └── result.json
+├── train_ray_2024-06-20_16-28-59
+│   ├── basic-variant-state-2024-06-20_16-28-59.json
+│   ├── experiment_state-2024-06-20_16-28-59.json
+│   ├── train_ray_6ec51_00000_0_lr=0.0001,num_epochs=15_2024-06-20_16-28-59
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1718893740.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── train_ray_6ec51_00001_1_lr=0.0002,num_epochs=10_2024-06-20_16-28-59
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1718893740.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── train_ray_6ec51_00002_2_lr=0.0008,num_epochs=10_2024-06-20_16-28-59
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1718893742.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── train_ray_6ec51_00003_3_lr=0.0018,num_epochs=15_2024-06-20_16-28-59
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1718893742.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── train_ray_6ec51_00004_4_lr=0.0004,num_epochs=5_2024-06-20_16-28-59
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1718893744.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── train_ray_6ec51_00005_5_lr=0.0857,num_epochs=10_2024-06-20_16-28-59
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1718893744.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── train_ray_6ec51_00006_6_lr=0.0087,num_epochs=5_2024-06-20_16-28-59
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1718893746.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── train_ray_6ec51_00007_7_lr=0.0017,num_epochs=15_2024-06-20_16-28-59
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1718893746.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   ├── train_ray_6ec51_00008_8_lr=0.0010,num_epochs=5_2024-06-20_16-28-59
+│   │   ├── error.pkl
+│   │   ├── error.txt
+│   │   ├── events.out.tfevents.1718893748.turing
+│   │   ├── params.json
+│   │   ├── params.pkl
+│   │   └── result.json
+│   └── train_ray_6ec51_00009_9_lr=0.0004,num_epochs=15_2024-06-20_16-28-59
+│       ├── error.pkl
+│       ├── error.txt
+│       ├── events.out.tfevents.1718893748.turing
+│       ├── params.json
+│       ├── params.pkl
+│       └── result.json
+└── train_ray_2024-06-22_14-12-43
+    ├── basic-variant-state-2024-06-22_14-12-43.json
+    ├── experiment_state-2024-06-22_14-12-43.json
+    ├── train_ray_ba6da_00000_0_lr=0.0813,num_epochs=5_2024-06-22_14-12-43
+    │   ├── error.pkl
+    │   ├── error.txt
+    │   ├── events.out.tfevents.1719058364.turing
+    │   ├── params.json
+    │   ├── params.pkl
+    │   └── result.json
+    ├── train_ray_ba6da_00001_1_lr=0.0258,num_epochs=10_2024-06-22_14-12-43
+    │   ├── error.pkl
+    │   ├── error.txt
+    │   ├── events.out.tfevents.1719058365.turing
+    │   ├── params.json
+    │   ├── params.pkl
+    │   └── result.json
+    ├── train_ray_ba6da_00002_2_lr=0.0333,num_epochs=15_2024-06-22_14-12-43
+    │   ├── error.pkl
+    │   ├── error.txt
+    │   ├── events.out.tfevents.1719058365.turing
+    │   ├── params.json
+    │   ├── params.pkl
+    │   └── result.json
+    ├── train_ray_ba6da_00003_3_lr=0.0074,num_epochs=5_2024-06-22_14-12-43
+    │   ├── error.pkl
+    │   ├── error.txt
+    │   ├── events.out.tfevents.1719058365.turing
+    │   ├── params.json
+    │   ├── params.pkl
+    │   └── result.json
+    ├── train_ray_ba6da_00004_4_lr=0.0424,num_epochs=5_2024-06-22_14-12-43
+    │   ├── error.pkl
+    │   ├── error.txt
+    │   ├── events.out.tfevents.1719058364.turing
+    │   ├── params.json
+    │   ├── params.pkl
+    │   └── result.json
+    ├── train_ray_ba6da_00005_5_lr=0.0001,num_epochs=10_2024-06-22_14-12-43
+    │   ├── error.pkl
+    │   ├── error.txt
+    │   ├── events.out.tfevents.1719058364.turing
+    │   ├── params.json
+    │   ├── params.pkl
+    │   └── result.json
+    ├── train_ray_ba6da_00006_6_lr=0.0006,num_epochs=5_2024-06-22_14-12-43
+    │   ├── error.pkl
+    │   ├── error.txt
+    │   ├── events.out.tfevents.1719058365.turing
+    │   ├── params.json
+    │   ├── params.pkl
+    │   └── result.json
+    ├── train_ray_ba6da_00007_7_lr=0.0017,num_epochs=10_2024-06-22_14-12-43
+    │   ├── error.pkl
+    │   ├── error.txt
+    │   ├── events.out.tfevents.1719058364.turing
+    │   ├── params.json
+    │   ├── params.pkl
+    │   └── result.json
+    ├── train_ray_ba6da_00008_8_lr=0.0712,num_epochs=5_2024-06-22_14-12-43
+    │   ├── error.pkl
+    │   ├── error.txt
+    │   ├── events.out.tfevents.1719058364.turing
+    │   ├── params.json
+    │   ├── params.pkl
+    │   └── result.json
+    └── train_ray_ba6da_00009_9_lr=0.0347,num_epochs=10_2024-06-22_14-12-43
+        ├── error.pkl
+        ├── error.txt
+        ├── events.out.tfevents.1719058365.turing
+        ├── params.json
+        ├── params.pkl
+        └── result.json
+
+685 directories, 2782 files

@@ -126,6 +126,9 @@ def train_func(config: Dict):
         batch_size=batch_size, dtypes=torch.float32
     )
 
+    # Initialize the list to store training losses
+    training_losses = []
+
     # Training loop
     for epoch in range(epochs):
         model.train() # Set model to training mode
